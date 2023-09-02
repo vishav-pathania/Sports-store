@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/navbar'
 import CategoryCard from '../components/CategoryCard'
 import Banner from '../components/Banner'
+import Trending from '../components/Trending'
+import Stripe from '../components/stripe'
 
 
 export default function Home() {
@@ -19,6 +21,8 @@ export default function Home() {
         <CategoryCard title="Sports Equipment" imageSrc="/sports.jpeg" link="/SportsEquipment" />
       </section>
       <Banner/>
+      <Stripe/>
+      <Trending/>
     </div>
   )
 }

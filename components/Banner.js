@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
-const images = ['/banner1.avif', '/banner2.avif', '/banner3.jpg', 'banner4.avif']; // Replace with your image URLs
+const images = ['/banner1.avif', '/banner2.avif', '/banner3.jpg', 'banner4.avif', 'banner5.avif']; // Replace with your image URLs
 
 const Banner = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -34,7 +34,7 @@ const Banner = () => {
           <img src="/left.png" alt="left" className="rounded w-3 h-5 lg:w-8 lg:h-11" />
         </button>
         <button onClick={goToNextImage} className="p-2 rounded white">
-        <img src="/right.png" alt="left" className="rounded w-3 h-5 lg:w-8 lg:h-11" />
+        <img src="/right.png" alt="right" className="rounded w-3 h-5 lg:w-8 lg:h-11" />
         </button>
       </div>
     </div>
