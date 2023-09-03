@@ -6,7 +6,7 @@ import CategoryCard from '../components/CategoryCard'
 import Banner from '../components/Banner'
 import Trending from '../components/Trending'
 import Stripe from '../components/stripe'
-
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -23,6 +23,7 @@ export default function Home() {
       <Banner/>
       <Stripe/>
       <Trending/>
+      <Footer/>
     </div>
   )
 }
