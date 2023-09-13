@@ -1,7 +1,6 @@
 import Navbar from "../components/navbar"
 
 
-
 const Shoes =()=>{
     return (
         <div>
