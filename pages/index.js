@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <section className="flex justify-around items-center p-4">
+      <section className="flex flex-wrap justify-around items-center p-4">
         <CategoryCard title="Men" imageSrc="/Men.avif" link="/men" />
         <CategoryCard title="Women" imageSrc="/women.webp" link="/women" />
         <CategoryCard title="Kids" imageSrc="/kids.jpg" link="/kids" />

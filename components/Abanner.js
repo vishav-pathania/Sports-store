@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
-const images = ['/banner1.avif', '/banner2.avif', '/banner3.jpg', 'banner4.avif', 'banner5.avif']; // Replace with your image URLs
+const images = ['/Fitness.avif', '/sunglassesbanner.avif', '/umbrellabanner.avif', 'support.avif']; // Replace with your image URLs
 
-const Banner = () => {
+const Abanner = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const goToNextImage = () => {
@@ -47,4 +47,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Abanner;
