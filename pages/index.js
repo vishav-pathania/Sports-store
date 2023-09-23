@@ -7,8 +7,11 @@ import Banner from '../components/Banner'
 import Trending from '../components/Trending'
 import Stripe from '../components/stripe'
 import Footer from '../components/footer'
+import { Product } from '../models/Product'
+import { mongooseConnect } from '../lib/mongoose'
 
-export default function Home() {
+
+export default function Home(featuredProduct) {
   return (
     <div>
       <Navbar />
@@ -20,10 +23,24 @@ export default function Home() {
         <CategoryCard title="Accessories" imageSrc="/accessories.jpeg" link="/Accessories" />
         <CategoryCard title="Sports Equipment" imageSrc="/sports.jpeg" link="/SportsEquipment" />
       </section>
-      <Banner/>
-      <Stripe/>
-      <Trending/>
-      <Footer/>
+      <Banner />
+      <Stripe />
+      <Trending featuredProduct={featuredProduct}/>
+      <Footer />
     </div>
   )
 }
+
+
+
+export async function getServerSideProps() {
+  const featuredProductId = '650ecf30df24e1bd61c90d8f';
+  await mongooseConnect();
+  const featuredProduct = await Product.findById(featuredProductId);
+  return {
+    props: {
+      featuredProduct: JSON.parse(JSON.stringify(featuredProduct)),
+    },
+  };
+}
+

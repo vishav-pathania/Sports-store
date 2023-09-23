@@ -1,3 +1,7 @@
+import { Product } from '../models/Product'
+import { mongooseConnect } from '../lib/mongoose'
+
+
 const products = [
     {
       id: 1,
@@ -11,7 +15,8 @@ const products = [
     // More products...
   ]
   
-  export default function Trending() {
+  export default function Trending({featuredProduct}) {
+    console.log(featuredProduct)
     return (
       <div className="bg-white">
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
@@ -47,3 +52,15 @@ const products = [
     )
   }
   
+
+
+  export async function getServerSideProps() {
+    const featuredProductId = '650ecf30df24e1bd61c90d8f';
+    await mongooseConnect();
+    const featuredProduct = await Product.findById(featuredProductId);
+    return {
+      props: {
+        featuredProduct: JSON.parse(JSON.stringify(featuredProduct)),
+      },
+    };
+  }

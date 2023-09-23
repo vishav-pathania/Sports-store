@@ -92,7 +92,7 @@ export default function Sign() {
             OR
           </p>
 
-            <button onClick={()=>signIn('google')} className="flex w-full justify-center rounded-md bg-blue-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mt-4">
+            <button onClick={()=>signIn('google', { callbackUrl: 'http://localhost:3000' })} className="flex w-full justify-center rounded-md bg-blue-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mt-4">
               <img src="/Google.png" alt="G" className="h-4 w-4 mx-1 my-1" /> Sign up using Google
             </button>
 
