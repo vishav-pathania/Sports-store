@@ -1,6 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Navbar from '../components/navbar'
 import CategoryCard from '../components/CategoryCard'
 import Banner from '../components/Banner'
@@ -10,8 +7,22 @@ import Footer from '../components/footer'
 import { Product } from '../models/Product'
 import { mongooseConnect } from '../lib/mongoose'
 
+//65181274d619d061333dbb90
 
-export default function Home(featuredProduct) {
+export async function getServerSideProps() {
+  const featuredProductId = '640de2b12aa291ebdf213d48';
+  await mongooseConnect();
+  const featuredProduct = await Product.findById(featuredProductId);
+  const newProducts = await Product.find({}, null, { sort: { '_id': -1 }, limit: 10 });
+  return {
+    props: {
+      featuredProduct: JSON.parse(JSON.stringify(featuredProduct)),
+      newProducts: JSON.parse(JSON.stringify(newProducts)),
+    },
+  };
+}
+
+export default function Home({ featuredProduct, newProducts }) {
   return (
     <div>
       <Navbar />
@@ -25,22 +36,8 @@ export default function Home(featuredProduct) {
       </section>
       <Banner />
       <Stripe />
-      <Trending featuredProduct={featuredProduct}/>
+      <Trending featuredProduct={featuredProduct} newProducts={newProducts} />
       <Footer />
     </div>
   )
 }
-
-
-
-export async function getServerSideProps() {
-  const featuredProductId = '650ecf30df24e1bd61c90d8f';
-  await mongooseConnect();
-  const featuredProduct = await Product.findById(featuredProductId);
-  return {
-    props: {
-      featuredProduct: JSON.parse(JSON.stringify(featuredProduct)),
-    },
-  };
-}
-
