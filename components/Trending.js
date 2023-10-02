@@ -1,5 +1,5 @@
 
-export default function Trending({ featuredProduct, newProducts }) {
+export default function Trending({ newProducts }) {
 
   return (
     <div className="bg-white">

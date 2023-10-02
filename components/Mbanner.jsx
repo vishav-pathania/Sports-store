@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const images = ['/Fitness.avif', '/sunglassesbanner.avif', '/umbrellabanner.avif', 'support.avif']; // Replace with your image URLs
 
-const Abanner = () => {
+const Mbanner = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const goToNextImage = () => {
@@ -79,4 +79,8 @@ const Abanner = () => {
   );
 };
 
-export default Abanner;
+export default Mbanner;
+
+
+
+//'/Mbanner.avif', '/Mbanner1.avif', '/Mbanner2.avif', '/Mbanner3.avif'
