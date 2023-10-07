@@ -13,9 +13,7 @@ const Cart = ()=> {
     }
     return (
         <div>
-            <h1>
-                You are not signed in.
-            </h1>
+            
         </div>
     )
 }
