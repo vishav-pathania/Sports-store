@@ -17,8 +17,8 @@ export default function Trending({ newProducts }) {
 
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {newProducts?.length > 0 && newProducts.map(product => (
-            <div>
-            <div key={product._id} className="group relative">
+            <div key={product._id}>
+            <div className="group relative">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                 <img
                   src={product.images}

@@ -3,3 +3,104 @@
 {title: "Adidas", description: "A SMALL TOWEL MADE OF QUICK-DRYING FABRIC", price: 1999, category: "Towels", images: "https://assets.adidas.com/images/w_600,f_auto,q_auto/f4b4ebcaa10448ad8fc9a879011dd752_9366/adidas_Towel_Small_Black_DH2860_01_standard.jpg"}]
 
 {title: "Sasimo", description: "3-Fold Windproof Umbrella", price: 679, category: "Umbrella", images: "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23691254/2023/6/20/82ce8849-a1b8-4602-b935-70084cdb8a8e1687254891645UVPrectionUmbrella1.jpg"}
+
+
+//add ons
+
+{title: "Nike", description: "CHKOKKO Women's Round Neck Half Sleeves Gym Sports T-Shirt", price: 349, category: "Women/tshirt", images: "https://m.media-amazon.com/images/I/51LG6ZIi6sL._UY879_.jpg"}
+{title: "Adidas", description: "Adidas Men's Regular T-Shirt", price: 500, category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/71m6yJ1IUiL._UX569_.jpg"}
+{title: "Campus", description: "Campus Sutra Men Polo Neck Graphic Print Half Sleeve Sports,Gym, Football Jersey T-Shirt", price: 400 , category: "Men/Collar tshirt", images:https://m.media-amazon.com/images/I/61QOe5U+IAL._UX679_.jpg ""}
+{title: "FTX", description: "FTX Men's T-Shirt", price:300 , category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/71SZKS68YeS._UX679_.jpg"}
+{title: "Inkholic", description: "Inkholic Men's Cricket Sports Jersey IN1500", price: 400, category: "Men/Collar tshirt", images: "https://m.media-amazon.com/images/I/51ehhjCngxL._UL1140_.jpg"}
+{title: "JTS", description: "JJ TEES Polyester Half Sleeve Jersey with Round Collar and Digital Print All Over for Men (Color: White, Black and Neon Green)", price: 300, category: "Men/Collar tshirt", images: "https://m.media-amazon.com/images/I/61fyjZ9ARtL._UX679_.jpg"}
+{title: "Puma", description: "Puma Men's T-Shirt", price: 500, category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/51iHxsxDNrL._UX679_.jpg"}
+{title: "Nivia", description: "Nivia Hydra_8 Full Sleeves Round Neck T_Shirt for Men (Maroon,S)", price:300 , category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/61TdC-HU7AL._SX522_.jpg"}
+{title: "Endavour", description: "ENDEAVOUR WEAR Men's Outdoor Quick Dry Lightweight Sports Shorts Zipper Pockets", price: 299 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/61XZpad5ruL._UY741_.jpg"}
+{title: "Jokey", description: "Jockey 9426 Men's Super Combed Cotton Rich Regular Fit Solid Shorts with Side Pockets", price: , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/71L2rnDr65L._UX569_.jpg"}
+{title: "Selvia", description: "Selvia Men's Lycra Knitted Full Elastic Sport and Active Wear Stretchable Shorts", price: 450 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/615UkayGbUL._UY741_.jpg"}
+{title: "Chromo", description: "Chromozome Men Shorts", price: 399 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/61-2bE-YTwL._UX569_.jpg"}
+{title: "Nike", description: "Nike Men Casual Shorts", price: 1499 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/716AhpqblQL._UX569_.jpg"}
+{title: "Shiv Naresh", description: "Shiv Naresh Men Track Pants", price: 250 , category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/61YdNcCCz1L._UY741_.jpg"}
+{title: "New knows", description: "NEW KNOWS Men's Regular Fit Sports Trackpants", price: 500, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/616mT0wHAWL._UX679_.jpg"}
+{title: "Vimal", description: "VIMAL JONNEY Men's Regular Fit Track pants(Pack of 2)", price: 450, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/71MwNdwIc1L._UX679_.jpg"}
+{title: "Nivia", description: "Nivia Tessla Lycra Polyester Track Pant with Zipper Pocket/Running & Sports Track Pants for Men", price: 899, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/51MYJhZXNZL._UL1500_.jpg"}
+{title: "Jockey", description: "Jockey Mens 3 Pocket Solid Track Pants", price: 699, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/71t7ZWb67wL._UX569_.jpg"}
+{title: "U. S. Polo", description: "U.S. POLO ASSN. Men's Regular Track Pants", price: 599, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/51DD4Y5cr4L._UX679_.jpg"}
+{title: "Vincent", description: "VINCENT CHASE EYEWEAR Unisex Adult Square Polarization Sunglasses", price: 699, category: "Men/sunglass", images: "https://m.media-amazon.com/images/I/41Dr9I4x1EL._UX679_.jpg"}
+{title: "Flaunt futuristic", description: "Flaunt Futuristic Series Wraparound Y2K Sunglasses For Men & Women | UV Protected | Full Rim Trending & Stylish Shades | Free Size", price: 450, category: "Men/sunglass", images: "https://m.media-amazon.com/images/I/519Yy-pj3qL._UX679_.jpg"}
+{title: "Fastrack", description: "Fastrack Men's 100% UV protected Square Sunglasses", price: 800, category: "Men/sunglass", images: "https://m.media-amazon.com/images/I/61+THk53YIL._UL1500_.jpg"}
+{title: "Elegant", description: "ELEGANTE Rectanglular Sunglasses for Women Retro Driving Sunlgasses Vintage Fashion ", price: 699, category: "Men/sunglass", images: "https://m.media-amazon.com/images/I/5193amnm+wL._UX679_.jpg"}
+{title: "John jacobs", description: "John Jacobs | UV Protection Sunglasses For Men & Women | Black Green Solid Full Rim Wayfarer ", price: 1999, category: "Men/sunglass", images: "https://m.media-amazon.com/images/I/51IubRKATnL._UX679_.jpg"}
+{title: "Amazon", description: "Amazon Brand - Symactive Leakproof Unbreakable Squeezable Sports Sipper Water Bottle with Push/Pull Cap, Anti-Slip Grip, LDPE Material, BPA-Free (Color: White, 800 ml)", price: 300, category: "water bottle", images: "https://m.media-amazon.com/images/I/51oLme7zhXL._SX522_.jpg"}
+{title: "Borosill", description: "Borosil - Stainless Steel Hydra Gosports ", price: 450, category: "water bottle", images: "https://m.media-amazon.com/images/I/418g2xwoSpL._SX522_.jpg"}
+{title: "Nivia Raider", description: "Nivia Radar Sippers Bottle for Sports Cycling", price: 350, category: "water bottle", images: "https://m.media-amazon.com/images/I/61KpAXnIxuL._SX522_.jpg"}
+{title: "Milton", description: "Milton Aura 1000 Thermosteel Bottle, 1.05 Litre, Black", price: 299, category: "water bottle", images: "https://m.media-amazon.com/images/I/51-NKrTs99L._SX522_.jpg"}
+{title: "Funblast", description: "FunBlast Unbreakable Water Bottle with Sipper & Straw ", price: 199, category: "water bottle", images: "https://m.media-amazon.com/images/I/516scHiMD9L._SY679_.jpg"}
+{title: "Caspian Aqua", description: "CASPIAN Aqua Stainless Steel Water Bottle ", price: 499, category: "water bottle", images: "https://m.media-amazon.com/images/I/51dtErEjsEL._SY741_.jpg"}
+{title: "Asguard", description: "ASGARD Multi Functional Sports Digital Multicolor Dial Men's Watch", price: 299, category: "sports watch", images: "https://m.media-amazon.com/images/I/71NG97cfPZL._UX522_.jpg"}
+{title: "Shocknshop", description: "Shocknshop Digital Sports Stylish Multifunctional Electronic LED ", price: 350, category: "sports watch", images: "https://m.media-amazon.com/images/I/71CxgCKczdL._UY550_.jpg"}
+{title: "Skmei", description: "SKMEI Men's Digital Sports Waterproof Wrist Watch with Dual Time ", price: 799, category: "sports watch", images: "https://m.media-amazon.com/images/I/61xlyEl1ZrL._UX522_.jpg"}
+{title: "Selloria", description: "SELLORIA Digital Sports Multi Functional Black Dial Watch for Mens Boys Kid", price: 650, category: "sports watch", images: "https://m.media-amazon.com/images/I/61TpupWlUmS._UY550_.jpg"}
+{title: "SF", description: "SF Digital Grey Square Dial Men's Sport Watch", price: 499, category: "sports watch", images: "https://m.media-amazon.com/images/I/61FR3Hf26rL._UY550_.jpg"}
+{title: "Acnos", description: "Acnos® Premium Brand - A Digital Shockproof Multi-Functional Automatic White-Gold Waterproof Digital Sports Watch", price: 349, category: "sports watch", images: "https://m.media-amazon.com/images/I/61N9zy+DgHL._UY550_.jpg"}
+{title: "HSR", description: "HSR Unstructured Reflective Lightweight", price: 299, category: "caps", images: "https://m.media-amazon.com/images/I/71GMDbDKg9L._UX679_.jpg"}
+{title: "Handcuffs", description: "Handcuffs Mens Womens Cap Adjustable Sports Caps (Black)", price: 500, category: "caps", images: "https://m.media-amazon.com/images/I/41pI7283DRL._UX679_.jpg"}
+{title: "NICSY", description: "NICSY Unisex Men's Baseball Head Cap All Sports Caps with Adjustable Strap", price: 349, category: "caps", images: "https://m.media-amazon.com/images/I/51noMsI8n0L._UX679_.jpg"}
+{title: "Selloria", description: "SELLORIA Plain Baseball Sport Cap Men's Baseball Head ", price: 450, category: "caps", images: "https://m.media-amazon.com/images/I/41JSNySU7cL._UX679_.jpg"}
+{title: "Missby", description: "Missby® Unisex Sports Sun Shade Adjustable Visor Cap", price: 799, category: "caps", images: "https://m.media-amazon.com/images/I/31iZ9z95FlL.jpg"}
+{title: "Boldfit", description: "Boldfit Head Caps for Men Unisex Mens Caps with Adjustable Strap in Summer for Men Caps Men ", price: 399, category: "caps", images: "https://m.media-amazon.com/images/I/51iWJwdpjXL._SX522_.jpg"}
+
+{title: "", description: "TEGO Cotton Performance Sports Towel (16 x 30 Inches) - Gym, Work Out, Fitness Towel", price: 399, category: "Towels", images: "https://m.media-amazon.com/images/I/61qNXyRFYiL._SY741_.jpg"}
+{title: "", description: "TEGO - VAPArise 100% Cotton Wave Body Towel ", price: 250, category: "Towels", images: "https://m.media-amazon.com/images/I/51kSDmFy2iL._SY741_.jpg"}
+{title: "", description: "Yellow Weaves Super Soft Microfiber Hand Towels", price: 279, category: "Towels", images: "https://m.media-amazon.com/images/I/91ucgHNo8dS._SX522_.jpg"}
+{title: "", description: "Grasshopr - Premium Microfiber Sports, Travel, Gym Towel", price: 449, category: "Towels", images: "https://m.media-amazon.com/images/I/512cmit-vvL._SX522_.jpg"}
+{title: "", description: "Story@Home Cotton 450 GSM Ultra Soft", price: 500, category: "Towels", images: "https://m.media-amazon.com/images/I/91bDVaoEPZS._SX522_.jpg"}
+{title: "", description: "Softweave Gym and Sports Towel 100% Cotton for Men & Women ", price: 429, category: "Towels", images: "https://m.media-amazon.com/images/I/91S3Jvn5CRL._SY741_.jpg"}
+
+{title: "G4Free", description: "G4Free 62 inch Portable Golf Umbrella Automatic Open ", price: 2499, category: "Umbrella", images: "https://m.media-amazon.com/images/I/61j6vPgwurL._UX679_.jpg"}
+{title: "OLKK", description: "olkk umbrella", price: 400, category: "Umbrella", images: "https://m.media-amazon.com/images/I/71aq0QsV+HL._UX679_.jpg"}
+{title: "Onpoint", description: "onpoint Umbrella For Men Or Women Comfortable And 3 Fold Umberallas", price: 349, category: "Umbrella", images: "https://m.media-amazon.com/images/I/41fuidcN91L.jpg"}
+{title: "Anycho", description: "ANYCHO Big Umbrella for Men with Reflective Stripe and Cover, ", price: 699, category: "Umbrella", images: "https://m.media-amazon.com/images/I/51xa5KDrTsL._UX679_.jpg"}
+{title: "Xtrim", description: "XTRIM Macho Gym Gloves for Men & Women with Wrist Support Accessories, Gym Gloves ", price: 299, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/91wwVR0JEiL._SX522_.jpg"}
+{title: "Aprodo", description: "Aprodo Sports Weight Lifting Workout Gym Gloves with Wrist Support", price: 250, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/71PBkDoi1JS._SX522_.jpg"}
+{title: "KOBO", description: "Kobo WTG-05 Leather", price: 399, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/71M-SPOa4tL._SX679_.jpg"}
+{title: "Boldfit", description: "Boldfit Gym Gloves for Men with Wrist Support Accessories", price: 350, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/51eMHyw8QPL._SX300_SY300_QL70_FMwebp_.jpg"}
+{title: "Leosportz", description: "serveuttam Leosportz Workout Gloves", price: 279, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/41WY3JkGlYL._SX300_SY300_QL70_FMwebp_.jpg"}
+{title: "Nivia", description: "NIVIA Pro Grip Gym Gloves (Black)", price: 400, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/81kl3er+WUL._SX679_.jpg"}
+{title: "KoBO", description: "Kobo WTG-22 Lycra-Spandex Gym Gloves", price: 550, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/91w4eBkV+lL._SX679_.jpg"}
+{title: "Boldfit", description: "Boldfit Resistance Bands Mini Loop Hip Band", price: 299, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/61nBCBzgc9L._SX679_.jpg"}
+{title: "Boldfit", description: "Boldfit Heavy Resistance Band for Workout Set Exercise & Stretching ", price: 249, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/61Mg9eVK0HL._SX679_.jpg"}
+{title: "Solvic", description: "Resistance Tube by SLOVIC (1 Year Warranty) with 30+ Exercise Guide ", price: 379, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/714eXvM++1L._SX522_.jpg"}
+{title: "GetFit", description: "GetFit Resistance Bands Mini Loop Perfect for Toning & Home Workout ", price: 450, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/615r4di6J6L._SX522_.jpg"}
+{title: "Fitlast", description: "Fitlastics Resistance Loop Bands Set for Squats", price: 400, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/71FCBluyHYL._SX679_.jpg"}
+{title: "Amazon Basics", description: "amazon basics Resistance And Pull Up Band For Chin Ups, Pull Ups", price: 569, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/71fXJMYsd1L._SX522_.jpg"}
+
+{title: "Fitbox", description: "FitBox Sports Intruder 20 Kg Adjustable PVC Dumbbells ", price: 649, category: "dumbells", images: "https://m.media-amazon.com/images/I/517FvNN-33L._SX679_.jpg"}
+{title: "Spanco", description: "Spanco PVC (Hex Shape) Dumbbells Pack of 2", price: 99, category: "dumbells", images: "https://m.media-amazon.com/images/I/61VcW8otphL._SX679_.jpg"}
+{title: "Fitbox", description: "FitBox Sports Dumbbells Combo Weight Plates & Hand Grips 20 Kg (2kg x 4 + 3kg x 4), Black", price: 679, category: "dumbells", images: "https://m.media-amazon.com/images/I/618TJMTB9NL._SX522_.jpg"}
+{title: "Amazon Brand", description: "Amazon Brand - Symactive PVC 8 Kg Adjustable Dumbbells Fitness Kit for Full Body Workout", price: 400, category: "dumbells", images: "https://m.media-amazon.com/images/I/71vRCO02jfL._SX522_.jpg"}
+{title: "Nivia", description: "Nivia Vinyl Dumbbells for Hand Weights, Strength Training, Full Body Workout", price: 449, category: "dumbells", images: "https://m.media-amazon.com/images/I/71LoEGXFfqL._SX522_.jpg"}
+{title: "Amazon Brand", description: "Amazon Brand - Symactive Professional Metal Integrated Rubber Adjustable ", price: 569, category: "dumbells", images: "https://m.media-amazon.com/images/I/81lKROGLOZL._SX522_.jpg"}
+
+
+{title: "Lifelong", description: "Lifelong Fit Pro Spin Fitness Bike with 6Kg Flywheel, Adjustable Resistance", price: 7999, category: "Exbikes", images: "Lifelong Fit Pro Spin Fitness Bike with 6Kg Flywheel, Adjustable Resistance"}
+{title: "Sparnado", description: "Sparnod Fitness SAB-04_R Upright Air Bike Exercise Cycle for Home Gym", price: 5250, category: "Exbikes", images: "https://m.media-amazon.com/images/I/51TvXE86KuL._SX522_.jpg"}
+{title: "Beatx", description: "beatXP Vortex Energize 1M Air Bike Exercise Cycle for Home ", price: 4500, category: "Exbikes", images: "https://m.media-amazon.com/images/I/51MGerYjU7L._SX679_.jpg"}
+{title: "Beatx", description: "beatXP Typhoon AirTronic 4CM Air Bike Exercise Cycle for Home Workout with Adjustable Cushioned Seat ", price: 5600, category: "Exbikes", images: "https://m.media-amazon.com/images/I/61q6sDe-YSL._SX522_.jpg"}
+{title: "Reach", description: "Reach AB-110 BPT Air Bike Exercise Cycle for Home Gym | with Push Up Bar & Twister ", price: 6750, category: "Exbikes", images: "https://m.media-amazon.com/images/I/61+3jyc1iPL._SX522_.jpg"}
+
+{title: "Cockato", description: "Cockatoo CE03Advance Smart Series Elliptical Cross Trainer", price: 7999, category: "Eleptical and Crosstrainers", images: "https://m.media-amazon.com/images/I/517Twk7NgDL._SY879_.jpg"}
+{title: "Cult.sport", description: "Cult.Sport smartcross Bern Bluetooth Enabled Elliptical Cross Trainer ", price: 13999, category: "Eleptical and Crosstrainers", images: "https://m.media-amazon.com/images/I/51fD9s5dSzL._SX522_.jpg"}
+{title: "WECARE", description: "WELCARE Maxpro Mp 6066 Elliptical Cross Trainer With Lcd Display, Adjustable Seat, Hand Pulse Sensor", price: 8250, category: "Eleptical and Crosstrainers", images: "https://m.media-amazon.com/images/I/51PDgfJI+NL._SX522_.jpg"}
+{title: "Amazin Basics", description: "amazon basics Magnetic Elliptical Cross Trainer With 8 Resistance Levels", price: 6700, category: "Eleptical and Crosstrainers", images: "https://m.media-amazon.com/images/I/71JV9tSQXOL._SX522_.jpg"}
+{title: "Welcare", description: "Welcare Elliptical Cross Trainer WC6044 with Adjustable seat, Hand Pulse Sensor, LCD Monitor", price: 7999, category: "Eleptical and Crosstrainers", images: "https://m.media-amazon.com/images/I/71fQwlOov0L._SX679_.jpg"}
+
+{title: "Fitkit", description: "Fitkit by Cult.Sport FT200M 4.5HP Peak (Max Weight: 110Kg", price: 17999, category: "Trademills", images: "https://m.media-amazon.com/images/I/61UxiVchpgL._SX522_.jpg"}
+{title: "Lifelong", description: "Lifelong FitPro (2.5 HP Peak) Manual Incline Motorized Treadmill for Home ", price: 18999, category: "Trademills", images: "https://m.media-amazon.com/images/I/61-X6z9Ms4S._SX679_.jpg"}
+{title: "Powermax", description: "PowerMax Fitness TD-M1 2HP (4HP Peak) Pre-installed Motorized Steel Treadmill", price: 16780, category: "Trademills", images: "https://m.media-amazon.com/images/I/71kDKp7N4-L._SL1500_.jpg"}
+{title: "Sparnod", description: "Sparnod Fitness STC-4250 (2 HP Continuous AC Motor) Semi-Commercial Treadmill", price: 15550, category: "Trademills", images: "https://m.media-amazon.com/images/I/614HPMpRrnL._SX679_.jpg"}
+{title: "", description: "", price: 18999, category: "Trademills", images: ""}
+{title: "", description: "", price: 14559, category: "Trademills", images: ""}
+
+{title: "", description: "", price: , category: "", images: ""}
+
