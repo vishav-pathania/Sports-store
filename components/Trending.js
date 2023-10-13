@@ -4,12 +4,7 @@ import { CartContext } from "./CartContext";
 
 
 export default function Trending({ newProducts }) {
-  const _id = newProducts.map(item => item._id)
-  const url = '/product/' + _id;
   const {addProduct} = useContext(CartContext)
-  function alsoPurchasedToCart(){
-     addProduct(newProducts._id)
-  }
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
@@ -29,7 +24,7 @@ export default function Trending({ newProducts }) {
               <div className="mt-4 flex justify-between">
                 <div>
                   <h3 className="text-sm text-gray-700">
-                    <a href={url}>
+                    <a href={"/product/" + product._id}>
                       <span aria-hidden="true" className="absolute inset-0" />
                       {product.title}
                     </a>
@@ -39,7 +34,7 @@ export default function Trending({ newProducts }) {
                 <p className="text-sm font-medium text-gray-900">₹{product.price}</p>
               </div>
               </div>
-              <button onClick={alsoPurchasedToCart} className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 mt-3 rounded inline-flex items-center">
+              <button onClick={()=>addProduct(product._id)} className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 mt-3 rounded inline-flex items-center">
                 Add to Cart
               </button>
             </div>
