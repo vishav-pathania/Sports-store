@@ -1,9 +1,10 @@
 const footer = () => {
     return (
-        <div className="relative overflow-hidden">
+        <div className="flex border-2">
+        <div className="relative w-11/12 h-full mb-0 overflow-hidden">
             <div className="mt-5 lg:mt-0 py-10 text-center">
                 <p className="uppercase text-center text-16 lg:text-20 text-grey-700 font-bold">Our Purpose</p>
-                <p className="mt-5 text-16 lg:text-20 text-center text-blue-400">
+                <p className="mt-5 text-16 lg:text-20 text-center text-purple-900">
                     <span className="cn-544">To Sustainably  </span>
                     make the Pleasure and Benefits of Sport accessible to the Many
                 </p>
@@ -13,6 +14,16 @@ const footer = () => {
                     <p className="mt-9 mb-5 text-12 text-center text-grey-700">© 2023 TruSports India Pvt Ltd. All rights reserved.</p>
                     <img className="hidden lg:inline absolute cn-214 cn-124 left-0 cn-26 z-10" src="/wood.webp" alt="Decathlon" crossOrigin="anonymous" loading="lazy"></img>
                 </div>
+            </div>
+            </div>
+            <div className="flex justify-center mr-0 flex-col">
+                <p className="text-violet-700" >Navigate to:</p>
+                <a className=" text-violet-900 hover:text-teal-500" href="/Men">Men</a>
+                <a className=" text-violet-900 hover:text-teal-500" href="/Women">Women</a>
+                <a className=" text-violet-900 hover:text-teal-500" href="/Kids">Kids</a>
+                <a className=" text-violet-900 hover:text-teal-500" href="/SportsEquipment">SportsEquipment</a>
+                <a className=" text-violet-900 hover:text-teal-500" href="/Accessories">Accessories</a>
+
             </div>
         </div>
     )
