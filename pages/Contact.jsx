@@ -3,11 +3,11 @@ import Footer from "../components/footer";
 import Link from "react-dom";
 const Contact = () => {
   return (
-    <div>
+    <div className="w-full">
       <Navbar />
     
-<div className="container mx-auto text-center bg-gradient-to-r text-white from-blue-400 via-violet-700 to-blue-400">
-        <main className="py-4">
+<div className=" w-full mx-auto text-center bg-gradient-to-r text-black from-blue-200 via-sky-100 to-blue-200">
+        <main className="w-full py-4">
           <section className="flex flex-col justify-center items-center">
             <h2 className="text-center text-3xl mb-28 font-bold">Contact Us</h2>
             <p className="text-center w-3/5  mb-32 text-lg">
@@ -52,18 +52,18 @@ const Contact = () => {
                 type="text"
                 name="name"
                 placeholder="Your Name"
-                className="w-full mt-4 p-2 border border-gray-300 rounded"
+                className="w-full mt-4 p-2 border text-black border-gray-300 rounded"
               />
               <input
                 type="email"
                 name="email"
                 placeholder="Your Email"
-                className="w-full mt-4 p-2 border border-gray-300 rounded"
+                className="w-full mt-4 p-2 border text-black border-gray-300 rounded"
               />
               <textarea
                 name="message"
                 placeholder="Your Message"
-                className="w-full mt-4 p-2 border border-gray-300 rounded"
+                className="w-full mt-4 p-2 border text-black border-gray-300 rounded"
               />
               <input
                 type="submit"

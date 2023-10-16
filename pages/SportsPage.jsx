@@ -1,16 +1,14 @@
 import React from 'react';
-import SportsUpdate from '../components/SportsUpdate';
+import LiveScores from './api/LiveScores';
 import Navbar from '../components/navbar';
 import Footer from "../components/footer";
 const SportsPage = () => {
-  const apiKey = '32a62fd71df16396bd50fd8936b90bd9768d8cf0dc457846712b2e7b01907241';
-
   return (
     <div>
       <Navbar />
-    <div className='flex flex-col'>
+    <div className='flex flex-col bg-gradient-to-r text-black from-blue-200 via-sky-100 to-blue-200'>
       <h1 className='justify-center text-center text-3xl'>Sports Page</h1>
-      <SportsUpdate apiKey={apiKey} />
+      <LiveScores />
     </div>
     <Footer/>
     </div>
