@@ -95,59 +95,65 @@ const Cart = () => {
                         {!!cartProducts?.length && (
                             < div className="bg-white rounded-lg p-8">
                                 <h2 className="text-2xl font-semibold mb-4">Order Information</h2>
-                                <div className="mb-4">
-                                    <input
-                                        type="text"
-                                        placeholder="Name"
-                                        value={name}
-                                        name="name"
-                                        onChange={ev => setName(ev.target.value)}
-                                        className="w-full p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
-                                    />
-                                </div>
-                                <div className="mb-4 flex space-x-4">
-                                    <input
-                                        type="text"
-                                        placeholder="City"
-                                        value={city}
-                                        name="city"
-                                        onChange={ev => setCity(ev.target.value)}
-                                        className="w-1/2 p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
-                                    />
-                                    <input
-                                        type="text"
-                                        placeholder="Postal Code"
-                                        value={postalCode}
-                                        name="postalCode"
-                                        onChange={ev => setPostalCode(ev.target.value)}
-                                        className="w-1/2 p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
-                                    />
-                                </div>
-                                <div className="mb-4">
-                                    <input
-                                        type="text"
-                                        placeholder="Street Address"
-                                        value={streetAddress}
-                                        name="streetAddress"
-                                        onChange={ev => setStreetAddress(ev.target.value)}
-                                        className="w-full p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
-                                    />
-                                </div>
-                                <div className="mb-4">
-                                    <input
-                                        type="text"
-                                        placeholder="State"
-                                        value={country}
-                                        name="country"
-                                        onChange={ev => setCountry(ev.target.value)}
-                                        className="w-full p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
-                                    />
-                                </div>
-                                <button
-                                    className="bg-black text-white border-0 px-4 py-2 rounded-md cursor-pointer hover:bg-gray-800"
-                                >
-                                    Continue to payment
-                                </button>
+                                <form method="post" action="/api/checkout">
+                                    <div className="mb-4">
+                                        <input
+                                            type="text"
+                                            placeholder="Name"
+                                            value={name}
+                                            name="name"
+                                            onChange={ev => setName(ev.target.value)}
+                                            className="w-full p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
+                                        />
+                                    </div>
+                                    <div className="mb-4 flex space-x-4">
+                                        <input
+                                            type="text"
+                                            placeholder="City"
+                                            value={city}
+                                            name="city"
+                                            onChange={ev => setCity(ev.target.value)}
+                                            className="w-1/2 p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
+                                        />
+                                        <input
+                                            type="text"
+                                            placeholder="Postal Code"
+                                            value={postalCode}
+                                            name="postalCode"
+                                            onChange={ev => setPostalCode(ev.target.value)}
+                                            className="w-1/2 p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
+                                        />
+                                    </div>
+                                    <div className="mb-4">
+                                        <input
+                                            type="text"
+                                            placeholder="Street Address"
+                                            value={streetAddress}
+                                            name="streetAddress"
+                                            onChange={ev => setStreetAddress(ev.target.value)}
+                                            className="w-full p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
+                                        />
+                                    </div>
+                                    <div className="mb-4">
+                                        <input
+                                            type="text"
+                                            placeholder="State"
+                                            value={country}
+                                            name="country"
+                                            onChange={ev => setCountry(ev.target.value)}
+                                            className="w-full p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
+                                        />
+                                        <input type="hidden"
+                                            name="products"
+                                            value={cartProducts.join(',')}
+                                        />
+                                    </div>
+                                    <button type="submit"
+                                        className="bg-black text-white border-0 px-4 py-2 rounded-md cursor-pointer hover:bg-gray-800"
+                                    >
+                                        Continue to payment
+                                    </button>
+                                </form>
                             </div>
 
                         )}
