@@ -16,7 +16,7 @@ function Signin() {
   };
 
   return (
-    <div className="relative inline-block text-left">
+    <div className="relative hover:bg-blue-500 p-1 rounded-lg inline-block text-left">
       <div>
         {session ? (
           <button

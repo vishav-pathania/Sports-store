@@ -16,8 +16,8 @@ const footer = () => {
                 </div>
             </div>
             </div>
-            <div className="flex justify-center mr-0 flex-col">
-                <p className="text-violet-700" >Navigate to:</p>
+            <div className="flex justify-center mr-1 flex-col">
+                <p className="text-violet-700 bg-slate-200 p-1" >Navigate to:</p>
                 <a className=" text-violet-900 hover:text-teal-500" href="/Men">Men</a>
                 <a className=" text-violet-900 hover:text-teal-500" href="/Women">Women</a>
                 <a className=" text-violet-900 hover:text-teal-500" href="/Kids">Kids</a>

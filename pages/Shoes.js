@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar"
 import CategoryCard from "../components/CategoryCard"
+import Footer from '../components/footer'
 
 
 const Shoes = () => {
@@ -15,6 +16,7 @@ const Shoes = () => {
                 <CategoryCard title="Sandals" imageSrc="/Sandals.avif" link="/Accessories" />
                 <CategoryCard title="Flip Flops" imageSrc="/FlipFlops.avif" link="/SportsEquipment" />
             </section>
+            <Footer />
         </div>
     )
 }

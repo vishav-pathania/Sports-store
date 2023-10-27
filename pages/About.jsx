@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main className="flex-1 bg-gradient-to-r text-black from-blue-200 via-sky-100 to-blue-200">
+      <main className="flex-1 bg-gradient-to-r text-black from-blue-100 via-sky-50 to-blue-100">
         <div className="container w-10/12 mx-auto py-10 flex flex-col justify-center items-center">
           <h1 className="text-3xl font-bold mb-4  text-center">About Us</h1>
           <p className="text-lg  text-center">

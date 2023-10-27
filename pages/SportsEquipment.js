@@ -1,5 +1,6 @@
 import Navbar from '../components/navbar'
 import CategoryCard from '../components/CategoryCard'
+import Footer from '../components/footer'
 
 
 export default function SportsEquipment() {
@@ -18,6 +19,7 @@ export default function SportsEquipment() {
                 <CategoryCard title="Elliptical & Cross Trainer" imageSrc="/Elliptical.webp" link="/Elliptical-crosstrainer" />
                 <CategoryCard title="Treadmills" imageSrc="/Treadmill.png" link="/SportsEquipment" />
             </section>
+            <Footer />
         </div>
 
     )

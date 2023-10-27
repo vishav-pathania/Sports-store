@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="w-full">
       <Navbar />
     
-<div className=" w-full mx-auto text-center bg-gradient-to-r text-black from-blue-200 via-sky-100 to-blue-200">
+<div className=" w-full mx-auto text-center bg-gradient-to-r text-black  from-blue-100 via-sky-50 to-blue-100">
         <main className="w-full py-4">
           <section className="flex flex-col justify-center items-center">
             <h2 className="text-center text-3xl mb-28 font-bold">Contact Us</h2>
@@ -47,7 +47,7 @@ const Contact = () => {
 
           <section className="flex flex-col justify-center items-center mt-8">
             <h2 className="text-center text-3xl font-bold">Contact Form</h2>
-            <form action="/contact" method="post">
+            <form action="#" method="post">
               <input
                 type="text"
                 name="name"

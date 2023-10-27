@@ -1,6 +1,7 @@
 import Navbar from "../components/navbar";
 import Abanner from "../components/Abanner";
 import CategoryCard from "../components/CategoryCard";
+import Footer from '../components/footer'
 
 const Accessories = () => {
     return (
@@ -16,6 +17,7 @@ const Accessories = () => {
                 <CategoryCard title="Towels" imageSrc="/towels.webp" link="/Accessories" />
                 <CategoryCard title="Umbrella" imageSrc="/umbrella.avif" link="/SportsEquipment" />
             </section>
+            <Footer />
         </div>
     )
 }
