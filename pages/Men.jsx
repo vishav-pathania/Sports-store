@@ -9,8 +9,8 @@ const Men = () => {
             <Navbar />
             <Mbanner />
             <section className="flex flex-wrap justify-around items-center p-4">
-                <CategoryCard title="T-shirts & Tanks" imageSrc="/Men-Tshirt.avif" link="/Men" />
-                <CategoryCard title="Shorts" imageSrc="/Men-Shorts.avif" link="/Women" />
+                <CategoryCard title="T-shirts & Tanks" imageSrc="/Men-Tshirt.avif" link="/Mtshirts" />
+                <CategoryCard title="Shorts" imageSrc="/Men-Shorts.avif" link="/Mshorts" />
                 <CategoryCard title="Sports Footwear" imageSrc="/Men-Shoes.avif" link="/Kids" />
                 <CategoryCard title="Sunglasses" imageSrc="/Men-Sunglasses.avif" link="/Shoes" />
                 <CategoryCard title="Track-pants" imageSrc="/Men-Trackpant.avif" link="/Accessories" />

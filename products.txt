@@ -14,12 +14,12 @@
 {title: "Inkholic", description: "Inkholic Men's Cricket Sports Jersey IN1500", price: 400, category: "Men/Collar tshirt", images: "https://m.media-amazon.com/images/I/51ehhjCngxL._UL1140_.jpg"}
 {title: "JTS", description: "JJ TEES Polyester Half Sleeve Jersey with Round Collar and Digital Print All Over for Men (Color: White, Black and Neon Green)", price: 300, category: "Men/Collar tshirt", images: "https://m.media-amazon.com/images/I/61fyjZ9ARtL._UX679_.jpg"}
 {title: "Puma", description: "Puma Men's T-Shirt", price: 500, category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/51iHxsxDNrL._UX679_.jpg"}
-{title: "Nivia", description: "Nivia Hydra_8 Full Sleeves Round Neck T_Shirt for Men (Maroon,S)", price:300 , category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/61TdC-HU7AL._SX522_.jpg"}
-{title: "Endavour", description: "ENDEAVOUR WEAR Men's Outdoor Quick Dry Lightweight Sports Shorts Zipper Pockets", price: 299 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/61XZpad5ruL._UY741_.jpg"}
-{title: "Jokey", description: "Jockey 9426 Men's Super Combed Cotton Rich Regular Fit Solid Shorts with Side Pockets", price: , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/71L2rnDr65L._UX569_.jpg"}
-{title: "Selvia", description: "Selvia Men's Lycra Knitted Full Elastic Sport and Active Wear Stretchable Shorts", price: 450 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/615UkayGbUL._UY741_.jpg"}
-{title: "Chromo", description: "Chromozome Men Shorts", price: 399 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/61-2bE-YTwL._UX569_.jpg"}
-{title: "Nike", description: "Nike Men Casual Shorts", price: 1499 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/716AhpqblQL._UX569_.jpg"}
+//{title: "Nivia", description: "Nivia Hydra_8 Full Sleeves Round Neck T_Shirt for Men (Maroon,S)", price:300 , category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/61TdC-HU7AL._SX522_.jpg"}
+//{title: "Endavour", description: "ENDEAVOUR WEAR Men's Outdoor Quick Dry Lightweight Sports Shorts Zipper Pockets", price: 299 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/61XZpad5ruL._UY741_.jpg"}
+//{title: "Jokey", description: "Jockey 9426 Men's Super Combed Cotton Rich Regular Fit Solid Shorts with Side Pockets", price: , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/71L2rnDr65L._UX569_.jpg"}
+//{title: "Selvia", description: "Selvia Men's Lycra Knitted Full Elastic Sport and Active Wear Stretchable Shorts", price: 450 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/615UkayGbUL._UY741_.jpg"}
+//{title: "Chromo", description: "Chromozome Men Shorts", price: 399 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/61-2bE-YTwL._UX569_.jpg"}
+//{title: "Nike", description: "Nike Men Casual Shorts", price: 1499 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/716AhpqblQL._UX569_.jpg"}
 {title: "Shiv Naresh", description: "Shiv Naresh Men Track Pants", price: 250 , category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/61YdNcCCz1L._UY741_.jpg"}
 {title: "New knows", description: "NEW KNOWS Men's Regular Fit Sports Trackpants", price: 500, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/616mT0wHAWL._UX679_.jpg"}
 {title: "Vimal", description: "VIMAL JONNEY Men's Regular Fit Track pants(Pack of 2)", price: 450, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/71MwNdwIc1L._UX679_.jpg"}
