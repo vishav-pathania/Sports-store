@@ -14,9 +14,9 @@ const Navbar = () => {
         <a href="/Contact" className="text-white hover:text-black border-2 px-3 p-2 m-1 rounded-3xl  hover:bg-blue-500">Contact</a>
       </div>
       <div className="flex flex-1 items-center justify-center">
-        <a href="/" className="font-bold md:px-8 mx-auto lg:px-16 xl:px-20 2xl:px-32 text-xl text-white">
+        <Link href="/" className="font-bold md:px-8 mx-auto lg:px-16 xl:px-20 2xl:px-32 text-xl text-white">
           TruSports
-        </a>
+        </Link>
       </div>
       <div className="flex items-center justify-end  mr-4 space-x-4">
         <Link href="/search" className="hover:bg-blue-500 p-1 rounded-lg">

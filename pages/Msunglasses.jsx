@@ -1,27 +1,28 @@
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
-import Mpshorts from "../components/Mpshorts"
+import Mpsunglasses from "../components/Mpsunglasses"
 import { Product } from '../models/Product'
 import { mongooseConnect } from '../lib/mongoose'
 
 export async function getServerSideProps() {
   
     await mongooseConnect();
-    const menShorts = await Product.find({ category: "Men/shorts" });
+    const Sunglasses = await Product.find({ category: "Sunglasses" });
+    console.log(Sunglasses)
   
     return {
       props: {
-        menShorts: JSON.parse(JSON.stringify(menShorts)),
+        Sunglasses: JSON.parse(JSON.stringify(Sunglasses)),
       },
     };
   }
 
-const Mshorts = ({menShorts}) => {
+const Mshorts = ({Sunglasses}) => {
     return (
         <div>
             <Navbar />
             <img src="/Mshorts.avif" alt="Shorts-Banner" />
-            <Mpshorts menShorts={menShorts} />
+            <Mpsunglasses Sunglasses={Sunglasses} />
             <Footer/>
         </div>
     )

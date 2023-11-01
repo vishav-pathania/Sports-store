@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
-import Products from "../components/Products"
+import Mptshirts from "../components/Mptshirts"
 import { Product } from '../models/Product'
 import { mongooseConnect } from '../lib/mongoose'
 
@@ -17,12 +17,12 @@ export async function getServerSideProps() {
     };
   }
 
-const Mtshirts = ({MtShirts}) => {
+const Mtshirts = ({Mtshirts}) => {
     return (
         <div>
             <Navbar />
             <img src="/Mshorts.avif" alt="Shorts-Banner" />
-            <Products Mtshirts={MtShirts} />
+            <Mptshirts Mtshirts={Mtshirts} />
             <Footer/>
         </div>
     )
