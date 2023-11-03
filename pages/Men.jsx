@@ -14,7 +14,7 @@ const Men = () => {
                 <CategoryCard title="Sports Footwear" imageSrc="/Men-Shoes.avif" link="/Mshoes" />
                 <CategoryCard title="Sunglasses" imageSrc="/Men-Sunglasses.avif" link="/Msunglasses" />
                 <CategoryCard title="Track-pants" imageSrc="/Men-Trackpant.avif" link="/Mtrackpant" />
-                <CategoryCard title="Collar T-shirts" imageSrc="/Men-Collartshirt.avif" link="/SportsEquipment" />
+                <CategoryCard title="Collar T-shirts" imageSrc="/Men-Collartshirt.avif" link="/Mctshirts" />
             </section>
             <img src="/Mbanner4.avif" alt="Men T-Shirts Collection" className="mt-4" />
             <Footer/>

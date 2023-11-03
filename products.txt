@@ -9,10 +9,10 @@
 
 {title: "Nike", description: "CHKOKKO Women's Round Neck Half Sleeves Gym Sports T-Shirt", price: 349, category: "Women/tshirt", images: "https://m.media-amazon.com/images/I/51LG6ZIi6sL._UY879_.jpg"}
 {title: "Adidas", description: "Adidas Men's Regular T-Shirt", price: 500, category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/71m6yJ1IUiL._UX569_.jpg"}
-{title: "Campus", description: "Campus Sutra Men Polo Neck Graphic Print Half Sleeve Sports,Gym, Football Jersey T-Shirt", price: 400 , category: "Men/Collar tshirt", images:https://m.media-amazon.com/images/I/61QOe5U+IAL._UX679_.jpg ""}
-{title: "FTX", description: "FTX Men's T-Shirt", price:300 , category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/71SZKS68YeS._UX679_.jpg"}
-{title: "Inkholic", description: "Inkholic Men's Cricket Sports Jersey IN1500", price: 400, category: "Men/Collar tshirt", images: "https://m.media-amazon.com/images/I/51ehhjCngxL._UL1140_.jpg"}
-{title: "JTS", description: "JJ TEES Polyester Half Sleeve Jersey with Round Collar and Digital Print All Over for Men (Color: White, Black and Neon Green)", price: 300, category: "Men/Collar tshirt", images: "https://m.media-amazon.com/images/I/61fyjZ9ARtL._UX679_.jpg"}
+//{title: "Campus", description: "Campus Sutra Men Polo Neck Graphic Print Half Sleeve Sports,Gym, Football Jersey T-Shirt", price: 400 , category: "Men/Collar tshirt", images:https://m.media-amazon.com/images/I/61QOe5U+IAL._UX679_.jpg ""}
+//{title: "FTX", description: "FTX Men's T-Shirt", price:300 , category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/71SZKS68YeS._UX679_.jpg"}
+//{title: "Inkholic", description: "Inkholic Men's Cricket Sports Jersey IN1500", price: 400, category: "Men/Collar tshirt", images: "https://m.media-amazon.com/images/I/51ehhjCngxL._UL1140_.jpg"}
+//{title: "JTS", description: "JJ TEES Polyester Half Sleeve Jersey with Round Collar and Digital Print All Over for Men (Color: White, Black and Neon Green)", price: 300, category: "Men/Collar tshirt", images: "https://m.media-amazon.com/images/I/61fyjZ9ARtL._UX679_.jpg"}
 {title: "Puma", description: "Puma Men's T-Shirt", price: 500, category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/51iHxsxDNrL._UX679_.jpg"}
 //{title: "Nivia", description: "Nivia Hydra_8 Full Sleeves Round Neck T_Shirt for Men (Maroon,S)", price:300 , category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/61TdC-HU7AL._SX522_.jpg"}
 //{title: "Endavour", description: "ENDEAVOUR WEAR Men's Outdoor Quick Dry Lightweight Sports Shorts Zipper Pockets", price: 299 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/61XZpad5ruL._UY741_.jpg"}
