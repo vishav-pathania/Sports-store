@@ -1,9 +1,12 @@
 import { Product } from '../../models/Product'
 import { mongooseConnect } from '../../lib/mongoose'
 import Navbar from '../../components/navbar';
+import { useContext } from "react";
+import { CartContext } from "../../components/CartContext";
 
 
 export default function ProductPage({ product }) {
+  const { addProduct } = useContext(CartContext)
   return (
     <div className='bg-slate-300 min-h-screen'>
       <Navbar />
@@ -15,6 +18,14 @@ export default function ProductPage({ product }) {
           <div>
             <h1 className='text-2xl font-semibold ml-8 mt-8'>{product.title}</h1>
             <p>{product.description}</p>
+            <div className=' flex gap-4'>
+              <div className='mt-4 font-medium text-xl'>
+              ₹{product.price}
+              </div>
+              <button onClick={() => addProduct(product._id)} className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 mt-3 rounded inline-flex items-center">
+                Add to Cart
+              </button>
+            </div>
           </div>
         </div>
       </div>

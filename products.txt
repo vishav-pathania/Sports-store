@@ -8,41 +8,41 @@
 //add ons
 
 {title: "Nike", description: "CHKOKKO Women's Round Neck Half Sleeves Gym Sports T-Shirt", price: 349, category: "Women/tshirt", images: "https://m.media-amazon.com/images/I/51LG6ZIi6sL._UY879_.jpg"}
-{title: "Adidas", description: "Adidas Men's Regular T-Shirt", price: 500, category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/71m6yJ1IUiL._UX569_.jpg"}
+//{title: "Adidas", description: "Adidas Men's Regular T-Shirt", price: 500, category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/71m6yJ1IUiL._UX569_.jpg"}
 //{title: "Campus", description: "Campus Sutra Men Polo Neck Graphic Print Half Sleeve Sports,Gym, Football Jersey T-Shirt", price: 400 , category: "Men/Collar tshirt", images:https://m.media-amazon.com/images/I/61QOe5U+IAL._UX679_.jpg ""}
 //{title: "FTX", description: "FTX Men's T-Shirt", price:300 , category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/71SZKS68YeS._UX679_.jpg"}
 //{title: "Inkholic", description: "Inkholic Men's Cricket Sports Jersey IN1500", price: 400, category: "Men/Collar tshirt", images: "https://m.media-amazon.com/images/I/51ehhjCngxL._UL1140_.jpg"}
 //{title: "JTS", description: "JJ TEES Polyester Half Sleeve Jersey with Round Collar and Digital Print All Over for Men (Color: White, Black and Neon Green)", price: 300, category: "Men/Collar tshirt", images: "https://m.media-amazon.com/images/I/61fyjZ9ARtL._UX679_.jpg"}
-{title: "Puma", description: "Puma Men's T-Shirt", price: 500, category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/51iHxsxDNrL._UX679_.jpg"}
+//{title: "Puma", description: "Puma Men's T-Shirt", price: 500, category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/51iHxsxDNrL._UX679_.jpg"}
 //{title: "Nivia", description: "Nivia Hydra_8 Full Sleeves Round Neck T_Shirt for Men (Maroon,S)", price:300 , category: "Men/tshirt", images: "https://m.media-amazon.com/images/I/61TdC-HU7AL._SX522_.jpg"}
 //{title: "Endavour", description: "ENDEAVOUR WEAR Men's Outdoor Quick Dry Lightweight Sports Shorts Zipper Pockets", price: 299 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/61XZpad5ruL._UY741_.jpg"}
 //{title: "Jokey", description: "Jockey 9426 Men's Super Combed Cotton Rich Regular Fit Solid Shorts with Side Pockets", price: , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/71L2rnDr65L._UX569_.jpg"}
 //{title: "Selvia", description: "Selvia Men's Lycra Knitted Full Elastic Sport and Active Wear Stretchable Shorts", price: 450 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/615UkayGbUL._UY741_.jpg"}
 //{title: "Chromo", description: "Chromozome Men Shorts", price: 399 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/61-2bE-YTwL._UX569_.jpg"}
 //{title: "Nike", description: "Nike Men Casual Shorts", price: 1499 , category: "Men/shorts", images: "https://m.media-amazon.com/images/I/716AhpqblQL._UX569_.jpg"}
-{title: "Shiv Naresh", description: "Shiv Naresh Men Track Pants", price: 250 , category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/61YdNcCCz1L._UY741_.jpg"}
-{title: "New knows", description: "NEW KNOWS Men's Regular Fit Sports Trackpants", price: 500, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/616mT0wHAWL._UX679_.jpg"}
-{title: "Vimal", description: "VIMAL JONNEY Men's Regular Fit Track pants(Pack of 2)", price: 450, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/71MwNdwIc1L._UX679_.jpg"}
-{title: "Nivia", description: "Nivia Tessla Lycra Polyester Track Pant with Zipper Pocket/Running & Sports Track Pants for Men", price: 899, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/51MYJhZXNZL._UL1500_.jpg"}
-{title: "Jockey", description: "Jockey Mens 3 Pocket Solid Track Pants", price: 699, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/71t7ZWb67wL._UX569_.jpg"}
-{title: "U. S. Polo", description: "U.S. POLO ASSN. Men's Regular Track Pants", price: 599, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/51DD4Y5cr4L._UX679_.jpg"}
+//{title: "Shiv Naresh", description: "Shiv Naresh Men Track Pants", price: 250 , category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/61YdNcCCz1L._UY741_.jpg"}
+//{title: "New knows", description: "NEW KNOWS Men's Regular Fit Sports Trackpants", price: 500, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/616mT0wHAWL._UX679_.jpg"}
+//{title: "Vimal", description: "VIMAL JONNEY Men's Regular Fit Track pants(Pack of 2)", price: 450, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/71MwNdwIc1L._UX679_.jpg"}
+//{title: "Nivia", description: "Nivia Tessla Lycra Polyester Track Pant with Zipper Pocket/Running & Sports Track Pants for Men", price: 899, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/51MYJhZXNZL._UL1500_.jpg"}
+{//title: "Jockey", description: "Jockey Mens 3 Pocket Solid Track Pants", price: 699, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/71t7ZWb67wL._UX569_.jpg"}
+//{title: "U. S. Polo", description: "U.S. POLO ASSN. Men's Regular Track Pants", price: 599, category: "Men/trackpant", images: "https://m.media-amazon.com/images/I/51DD4Y5cr4L._UX679_.jpg"}
 //{title: "Vincent", description: "VINCENT CHASE EYEWEAR Unisex Adult Square Polarization Sunglasses", price: 699, category: "Sunglass", images: "https://m.media-amazon.com/images/I/41Dr9I4x1EL._UX679_.jpg"}
-{title: "Flaunt futuristic", description: "Flaunt Futuristic Series Wraparound Y2K Sunglasses For Men & Women | UV Protected | Full Rim Trending & Stylish Shades | Free Size", price: 450, category: "Men/sunglass", images: "https://m.media-amazon.com/images/I/519Yy-pj3qL._UX679_.jpg"}
-{title: "Fastrack", description: "Fastrack Men's 100% UV protected Square Sunglasses", price: 800, category: "Men/sunglass", images: "https://m.media-amazon.com/images/I/61+THk53YIL._UL1500_.jpg"}
-{title: "Elegant", description: "ELEGANTE Rectanglular Sunglasses for Women Retro Driving Sunlgasses Vintage Fashion ", price: 699, category: "Sunglass", images: "https://m.media-amazon.com/images/I/5193amnm+wL._UX679_.jpg"}
-{title: "John jacobs", description: "John Jacobs | UV Protection Sunglasses For Men & Women | Black Green Solid Full Rim Wayfarer ", price: 1999, category: "Sunglass", images: "https://m.media-amazon.com/images/I/51IubRKATnL._UX679_.jpg"}
-{title: "Amazon", description: "Amazon Brand - Symactive Leakproof Unbreakable Squeezable Sports Sipper Water Bottle with Push/Pull Cap, Anti-Slip Grip, LDPE Material, BPA-Free (Color: White, 800 ml)", price: 300, category: "water bottle", images: "https://m.media-amazon.com/images/I/51oLme7zhXL._SX522_.jpg"}
-{title: "Borosill", description: "Borosil - Stainless Steel Hydra Gosports ", price: 450, category: "water bottle", images: "https://m.media-amazon.com/images/I/418g2xwoSpL._SX522_.jpg"}
-{title: "Nivia Raider", description: "Nivia Radar Sippers Bottle for Sports Cycling", price: 350, category: "water bottle", images: "https://m.media-amazon.com/images/I/61KpAXnIxuL._SX522_.jpg"}
-{title: "Milton", description: "Milton Aura 1000 Thermosteel Bottle, 1.05 Litre, Black", price: 299, category: "water bottle", images: "https://m.media-amazon.com/images/I/51-NKrTs99L._SX522_.jpg"}
-{title: "Funblast", description: "FunBlast Unbreakable Water Bottle with Sipper & Straw ", price: 199, category: "water bottle", images: "https://m.media-amazon.com/images/I/516scHiMD9L._SY679_.jpg"}
-{title: "Caspian Aqua", description: "CASPIAN Aqua Stainless Steel Water Bottle ", price: 499, category: "water bottle", images: "https://m.media-amazon.com/images/I/51dtErEjsEL._SY741_.jpg"}
-{title: "Asguard", description: "ASGARD Multi Functional Sports Digital Multicolor Dial Men's Watch", price: 299, category: "sports watch", images: "https://m.media-amazon.com/images/I/71NG97cfPZL._UX522_.jpg"}
-{title: "Shocknshop", description: "Shocknshop Digital Sports Stylish Multifunctional Electronic LED ", price: 350, category: "sports watch", images: "https://m.media-amazon.com/images/I/71CxgCKczdL._UY550_.jpg"}
-{title: "Skmei", description: "SKMEI Men's Digital Sports Waterproof Wrist Watch with Dual Time ", price: 799, category: "sports watch", images: "https://m.media-amazon.com/images/I/61xlyEl1ZrL._UX522_.jpg"}
-{title: "Selloria", description: "SELLORIA Digital Sports Multi Functional Black Dial Watch for Mens Boys Kid", price: 650, category: "sports watch", images: "https://m.media-amazon.com/images/I/61TpupWlUmS._UY550_.jpg"}
-{title: "SF", description: "SF Digital Grey Square Dial Men's Sport Watch", price: 499, category: "sports watch", images: "https://m.media-amazon.com/images/I/61FR3Hf26rL._UY550_.jpg"}
-{title: "Acnos", description: "Acnos® Premium Brand - A Digital Shockproof Multi-Functional Automatic White-Gold Waterproof Digital Sports Watch", price: 349, category: "sports watch", images: "https://m.media-amazon.com/images/I/61N9zy+DgHL._UY550_.jpg"}
+//{title: "Flaunt futuristic", description: "Flaunt Futuristic Series Wraparound Y2K Sunglasses For Men & Women | UV Protected | Full Rim Trending & Stylish Shades | Free Size", price: 450, category: "Men/sunglass", images: "https://m.media-amazon.com/images/I/519Yy-pj3qL._UX679_.jpg"}
+//{title: "Fastrack", description: "Fastrack Men's 100% UV protected Square Sunglasses", price: 800, category: "Men/sunglass", images: "https://m.media-amazon.com/images/I/61+THk53YIL._UL1500_.jpg"}
+//{title: "Elegant", description: "ELEGANTE Rectanglular Sunglasses for Women Retro Driving Sunlgasses Vintage Fashion ", price: 699, category: "Sunglass", images: "https://m.media-amazon.com/images/I/5193amnm+wL._UX679_.jpg"}
+//{title: "John jacobs", description: "John Jacobs | UV Protection Sunglasses For Men & Women | Black Green Solid Full Rim Wayfarer ", price: 1999, category: "Sunglass", images: "https://m.media-amazon.com/images/I/51IubRKATnL._UX679_.jpg"}
+//{title: "Amazon", description: "Amazon Brand - Symactive Leakproof Unbreakable Squeezable Sports Sipper Water Bottle with Push/Pull Cap, Anti-Slip Grip, LDPE Material, BPA-Free (Color: White, 800 ml)", price: 300, category: "water bottle", images: "https://m.media-amazon.com/images/I/51oLme7zhXL._SX522_.jpg"}
+//{title: "Borosill", description: "Borosil - Stainless Steel Hydra Gosports ", price: 450, category: "water bottle", images: "https://m.media-amazon.com/images/I/418g2xwoSpL._SX522_.jpg"}
+//{title: "Nivia Raider", description: "Nivia Radar Sippers Bottle for Sports Cycling", price: 350, category: "water bottle", images: "https://m.media-amazon.com/images/I/61KpAXnIxuL._SX522_.jpg"}
+//{title: "Milton", description: "Milton Aura 1000 Thermosteel Bottle, 1.05 Litre, Black", price: 299, category: "water bottle", images: "https://m.media-amazon.com/images/I/51-NKrTs99L._SX522_.jpg"}
+//{title: "Funblast", description: "FunBlast Unbreakable Water Bottle with Sipper & Straw ", price: 199, category: "water bottle", images: "https://m.media-amazon.com/images/I/516scHiMD9L._SY679_.jpg"}
+//{title: "Caspian Aqua", description: "CASPIAN Aqua Stainless Steel Water Bottle ", price: 499, category: "water bottle", images: "https://m.media-amazon.com/images/I/51dtErEjsEL._SY741_.jpg"}
+//{title: "Asguard", description: "ASGARD Multi Functional Sports Digital Multicolor Dial Men's Watch", price: 299, category: "sports watch", images: "https://m.media-amazon.com/images/I/71NG97cfPZL._UX522_.jpg"}
+//{title: "Shocknshop", description: "Shocknshop Digital Sports Stylish Multifunctional Electronic LED ", price: 350, category: "sports watch", images: "https://m.media-amazon.com/images/I/71CxgCKczdL._UY550_.jpg"}
+//{title: "Skmei", description: "SKMEI Men's Digital Sports Waterproof Wrist Watch with Dual Time ", price: 799, category: "sports watch", images: "https://m.media-amazon.com/images/I/61xlyEl1ZrL._UX522_.jpg"}
+//{title: "Selloria", description: "SELLORIA Digital Sports Multi Functional Black Dial Watch for Mens Boys Kid", price: 650, category: "sports watch", images: "https://m.media-amazon.com/images/I/61TpupWlUmS._UY550_.jpg"}
+//{title: "SF", description: "SF Digital Grey Square Dial Men's Sport Watch", price: 499, category: "sports watch", images: "https://m.media-amazon.com/images/I/61FR3Hf26rL._UY550_.jpg"}
+//{title: "Acnos", description: "Acnos® Premium Brand - A Digital Shockproof Multi-Functional Automatic White-Gold Waterproof Digital Sports Watch", price: 349, category: "sports watch", images: "https://m.media-amazon.com/images/I/61N9zy+DgHL._UY550_.jpg"}
 {title: "HSR", description: "HSR Unstructured Reflective Lightweight", price: 299, category: "caps", images: "https://m.media-amazon.com/images/I/71GMDbDKg9L._UX679_.jpg"}
 {title: "Handcuffs", description: "Handcuffs Mens Womens Cap Adjustable Sports Caps (Black)", price: 500, category: "caps", images: "https://m.media-amazon.com/images/I/41pI7283DRL._UX679_.jpg"}
 {title: "NICSY", description: "NICSY Unisex Men's Baseball Head Cap All Sports Caps with Adjustable Strap", price: 349, category: "caps", images: "https://m.media-amazon.com/images/I/51noMsI8n0L._UX679_.jpg"}
@@ -50,17 +50,17 @@
 {title: "Missby", description: "Missby® Unisex Sports Sun Shade Adjustable Visor Cap", price: 799, category: "caps", images: "https://m.media-amazon.com/images/I/31iZ9z95FlL.jpg"}
 {title: "Boldfit", description: "Boldfit Head Caps for Men Unisex Mens Caps with Adjustable Strap in Summer for Men Caps Men ", price: 399, category: "caps", images: "https://m.media-amazon.com/images/I/51iWJwdpjXL._SX522_.jpg"}
 
-{title: "", description: "TEGO Cotton Performance Sports Towel (16 x 30 Inches) - Gym, Work Out, Fitness Towel", price: 399, category: "Towels", images: "https://m.media-amazon.com/images/I/61qNXyRFYiL._SY741_.jpg"}
-{title: "", description: "TEGO - VAPArise 100% Cotton Wave Body Towel ", price: 250, category: "Towels", images: "https://m.media-amazon.com/images/I/51kSDmFy2iL._SY741_.jpg"}
-{title: "", description: "Yellow Weaves Super Soft Microfiber Hand Towels", price: 279, category: "Towels", images: "https://m.media-amazon.com/images/I/91ucgHNo8dS._SX522_.jpg"}
-{title: "", description: "Grasshopr - Premium Microfiber Sports, Travel, Gym Towel", price: 449, category: "Towels", images: "https://m.media-amazon.com/images/I/512cmit-vvL._SX522_.jpg"}
-{title: "", description: "Story@Home Cotton 450 GSM Ultra Soft", price: 500, category: "Towels", images: "https://m.media-amazon.com/images/I/91bDVaoEPZS._SX522_.jpg"}
-{title: "", description: "Softweave Gym and Sports Towel 100% Cotton for Men & Women ", price: 429, category: "Towels", images: "https://m.media-amazon.com/images/I/91S3Jvn5CRL._SY741_.jpg"}
+//{title: "TEGO", description: "TEGO Cotton Performance Sports Towel (16 x 30 Inches) - Gym, Work Out, Fitness Towel", price: 399, category: "Towels", images: "https://m.media-amazon.com/images/I/61qNXyRFYiL._SY741_.jpg"}
+//{title: "TEGO", description: "TEGO - VAPArise 100% Cotton Wave Body Towel ", price: 250, category: "Towels", images: "https://m.media-amazon.com/images/I/51kSDmFy2iL._SY741_.jpg"}
+//{title: "Yellow Weaves", description: "Yellow Weaves Super Soft Microfiber Hand Towels", price: 279, category: "Towels", images: "https://m.media-amazon.com/images/I/91ucgHNo8dS._SX522_.jpg"}
+//{title: "Grasshopr", description: "Grasshopr - Premium Microfiber Sports, Travel, Gym Towel", price: 449, category: "Towels", images: "https://m.media-amazon.com/images/I/512cmit-vvL._SX522_.jpg"}
+//{title: "Story@Home", description: "Story@Home Cotton 450 GSM Ultra Soft", price: 500, category: "Towels", images: "https://m.media-amazon.com/images/I/91bDVaoEPZS._SX522_.jpg"}
+//{title: "Softweave", description: "Softweave Gym and Sports Towel 100% Cotton for Men & Women ", price: 429, category: "Towels", images: "https://m.media-amazon.com/images/I/91S3Jvn5CRL._SY741_.jpg"}
 
-{title: "G4Free", description: "G4Free 62 inch Portable Golf Umbrella Automatic Open ", price: 2499, category: "Umbrella", images: "https://m.media-amazon.com/images/I/61j6vPgwurL._UX679_.jpg"}
-{title: "OLKK", description: "olkk umbrella", price: 400, category: "Umbrella", images: "https://m.media-amazon.com/images/I/71aq0QsV+HL._UX679_.jpg"}
-{title: "Onpoint", description: "onpoint Umbrella For Men Or Women Comfortable And 3 Fold Umberallas", price: 349, category: "Umbrella", images: "https://m.media-amazon.com/images/I/41fuidcN91L.jpg"}
-{title: "Anycho", description: "ANYCHO Big Umbrella for Men with Reflective Stripe and Cover, ", price: 699, category: "Umbrella", images: "https://m.media-amazon.com/images/I/51xa5KDrTsL._UX679_.jpg"}
+//{title: "G4Free", description: "G4Free 62 inch Portable Golf Umbrella Automatic Open ", price: 2499, category: "Umbrella", images: "https://m.media-amazon.com/images/I/61j6vPgwurL._UX679_.jpg"}
+//{title: "OLKK", description: "olkk umbrella", price: 400, category: "Umbrella", images: "https://m.media-amazon.com/images/I/71aq0QsV+HL._UX679_.jpg"}
+//{title: "Onpoint", description: "onpoint Umbrella For Men Or Women Comfortable And 3 Fold Umberallas", price: 349, category: "Umbrella", images: "https://m.media-amazon.com/images/I/41fuidcN91L.jpg"}
+//{title: "Anycho", description: "ANYCHO Big Umbrella for Men with Reflective Stripe and Cover, ", price: 699, category: "Umbrella", images: "https://m.media-amazon.com/images/I/51xa5KDrTsL._UX679_.jpg"}
 {title: "Xtrim", description: "XTRIM Macho Gym Gloves for Men & Women with Wrist Support Accessories, Gym Gloves ", price: 299, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/91wwVR0JEiL._SX522_.jpg"}
 {title: "Aprodo", description: "Aprodo Sports Weight Lifting Workout Gym Gloves with Wrist Support", price: 250, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/71PBkDoi1JS._SX522_.jpg"}
 {title: "KOBO", description: "Kobo WTG-05 Leather", price: 399, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/71M-SPOa4tL._SX679_.jpg"}
