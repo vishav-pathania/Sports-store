@@ -1,31 +1,31 @@
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
-import Mptshirts from "../components/Mptshirts"
+import Ptrademills from "../components/Ptrademills"
 import { Product } from '../models/Product'
 import { mongooseConnect } from '../lib/mongoose'
 
 export async function getServerSideProps() {
   
     await mongooseConnect();
-    const Mtshirts = await Product.find({ category: "Men/tshirt" });
+    const Trademills = await Product.find({ category: "Trademills" });
   
     return {
       props: {
-        Mtshirts: JSON.parse(JSON.stringify(Mtshirts)),
+        Trademills: JSON.parse(JSON.stringify(Trademills)),
       },
     };
   }
 
-const Mtshirts = ({Mtshirts}) => {
+const Trademills = ({Trademills}) => {
     return (
         <div>
             <Navbar />
-            <img src="/mtshirts.avif" alt="Tshirts-Banner" />
-            <Mptshirts Mtshirts={Mtshirts} />
+            <img src="/Equipment.avif" alt="Equipment-Banner" />
+            <Ptrademills Trademills={Trademills} />
             <Footer/>
         </div>
     )
 }
 
 
-export default Mtshirts
+export default Trademills

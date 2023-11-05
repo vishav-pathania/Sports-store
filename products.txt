@@ -61,19 +61,19 @@
 //{title: "OLKK", description: "olkk umbrella", price: 400, category: "Umbrella", images: "https://m.media-amazon.com/images/I/71aq0QsV+HL._UX679_.jpg"}
 //{title: "Onpoint", description: "onpoint Umbrella For Men Or Women Comfortable And 3 Fold Umberallas", price: 349, category: "Umbrella", images: "https://m.media-amazon.com/images/I/41fuidcN91L.jpg"}
 //{title: "Anycho", description: "ANYCHO Big Umbrella for Men with Reflective Stripe and Cover, ", price: 699, category: "Umbrella", images: "https://m.media-amazon.com/images/I/51xa5KDrTsL._UX679_.jpg"}
-{title: "Xtrim", description: "XTRIM Macho Gym Gloves for Men & Women with Wrist Support Accessories, Gym Gloves ", price: 299, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/91wwVR0JEiL._SX522_.jpg"}
-{title: "Aprodo", description: "Aprodo Sports Weight Lifting Workout Gym Gloves with Wrist Support", price: 250, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/71PBkDoi1JS._SX522_.jpg"}
-{title: "KOBO", description: "Kobo WTG-05 Leather", price: 399, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/71M-SPOa4tL._SX679_.jpg"}
-{title: "Boldfit", description: "Boldfit Gym Gloves for Men with Wrist Support Accessories", price: 350, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/51eMHyw8QPL._SX300_SY300_QL70_FMwebp_.jpg"}
-{title: "Leosportz", description: "serveuttam Leosportz Workout Gloves", price: 279, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/41WY3JkGlYL._SX300_SY300_QL70_FMwebp_.jpg"}
-{title: "Nivia", description: "NIVIA Pro Grip Gym Gloves (Black)", price: 400, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/81kl3er+WUL._SX679_.jpg"}
-{title: "KoBO", description: "Kobo WTG-22 Lycra-Spandex Gym Gloves", price: 550, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/91w4eBkV+lL._SX679_.jpg"}
-{title: "Boldfit", description: "Boldfit Resistance Bands Mini Loop Hip Band", price: 299, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/61nBCBzgc9L._SX679_.jpg"}
-{title: "Boldfit", description: "Boldfit Heavy Resistance Band for Workout Set Exercise & Stretching ", price: 249, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/61Mg9eVK0HL._SX679_.jpg"}
-{title: "Solvic", description: "Resistance Tube by SLOVIC (1 Year Warranty) with 30+ Exercise Guide ", price: 379, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/714eXvM++1L._SX522_.jpg"}
-{title: "GetFit", description: "GetFit Resistance Bands Mini Loop Perfect for Toning & Home Workout ", price: 450, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/615r4di6J6L._SX522_.jpg"}
-{title: "Fitlast", description: "Fitlastics Resistance Loop Bands Set for Squats", price: 400, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/71FCBluyHYL._SX679_.jpg"}
-{title: "Amazon Basics", description: "amazon basics Resistance And Pull Up Band For Chin Ups, Pull Ups", price: 569, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/71fXJMYsd1L._SX522_.jpg"}
+//{title: "Xtrim", description: "XTRIM Macho Gym Gloves for Men & Women with Wrist Support Accessories, Gym Gloves ", price: 299, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/91wwVR0JEiL._SX522_.jpg"}
+//{title: "Aprodo", description: "Aprodo Sports Weight Lifting Workout Gym Gloves with Wrist Support", price: 250, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/71PBkDoi1JS._SX522_.jpg"}
+//{title: "KOBO", description: "Kobo WTG-05 Leather", price: 399, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/71M-SPOa4tL._SX679_.jpg"}
+//{title: "Boldfit", description: "Boldfit Gym Gloves for Men with Wrist Support Accessories", price: 350, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/51eMHyw8QPL._SX300_SY300_QL70_FMwebp_.jpg"}
+//{title: "Leosportz", description: "serveuttam Leosportz Workout Gloves", price: 279, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/41WY3JkGlYL._SX300_SY300_QL70_FMwebp_.jpg"}
+//{title: "Nivia", description: "NIVIA Pro Grip Gym Gloves (Black)", price: 400, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/81kl3er+WUL._SX679_.jpg"}
+//{title: "KoBO", description: "Kobo WTG-22 Lycra-Spandex Gym Gloves", price: 550, category: "Gymgloves", images: "https://m.media-amazon.com/images/I/91w4eBkV+lL._SX679_.jpg"}
+//{title: "Boldfit", description: "Boldfit Resistance Bands Mini Loop Hip Band", price: 299, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/61nBCBzgc9L._SX679_.jpg"}
+//{title: "Boldfit", description: "Boldfit Heavy Resistance Band for Workout Set Exercise & Stretching ", price: 249, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/61Mg9eVK0HL._SX679_.jpg"}
+//{title: "Solvic", description: "Resistance Tube by SLOVIC (1 Year Warranty) with 30+ Exercise Guide ", price: 379, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/714eXvM++1L._SX522_.jpg"}
+//{title: "GetFit", description: "GetFit Resistance Bands Mini Loop Perfect for Toning & Home Workout ", price: 450, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/615r4di6J6L._SX522_.jpg"}
+//{title: "Fitlast", description: "Fitlastics Resistance Loop Bands Set for Squats", price: 400, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/71FCBluyHYL._SX679_.jpg"}
+//{title: "Amazon Basics", description: "amazon basics Resistance And Pull Up Band For Chin Ups, Pull Ups", price: 569, category: "ResistanceBand", images: "https://m.media-amazon.com/images/I/71fXJMYsd1L._SX522_.jpg"}
 
 {title: "Fitbox", description: "FitBox Sports Intruder 20 Kg Adjustable PVC Dumbbells ", price: 649, category: "dumbells", images: "https://m.media-amazon.com/images/I/517FvNN-33L._SX679_.jpg"}
 {title: "Spanco", description: "Spanco PVC (Hex Shape) Dumbbells Pack of 2", price: 99, category: "dumbells", images: "https://m.media-amazon.com/images/I/61VcW8otphL._SX679_.jpg"}
@@ -95,7 +95,7 @@
 {title: "Amazin Basics", description: "amazon basics Magnetic Elliptical Cross Trainer With 8 Resistance Levels", price: 6700, category: "Eleptical and Crosstrainers", images: "https://m.media-amazon.com/images/I/71JV9tSQXOL._SX522_.jpg"}
 {title: "Welcare", description: "Welcare Elliptical Cross Trainer WC6044 with Adjustable seat, Hand Pulse Sensor, LCD Monitor", price: 7999, category: "Eleptical and Crosstrainers", images: "https://m.media-amazon.com/images/I/71fQwlOov0L._SX679_.jpg"}
 
-{title: "Fitkit", description: "Fitkit by Cult.Sport FT200M 4.5HP Peak (Max Weight: 110Kg", price: 17999, category: "Trademills", images: "https://m.media-amazon.com/images/I/61UxiVchpgL._SX522_.jpg"}
+{title: "Fitkit", description: "Fitkit by Cult.Sport FT200M 4.5HP Peak Max Weight: 110Kg", price: 17999, category: "Trademills", images: "https://m.media-amazon.com/images/I/61UxiVchpgL._SX522_.jpg"}
 {title: "Lifelong", description: "Lifelong FitPro (2.5 HP Peak) Manual Incline Motorized Treadmill for Home ", price: 18999, category: "Trademills", images: "https://m.media-amazon.com/images/I/61-X6z9Ms4S._SX679_.jpg"}
 {title: "Powermax", description: "PowerMax Fitness TD-M1 2HP (4HP Peak) Pre-installed Motorized Steel Treadmill", price: 16780, category: "Trademills", images: "https://m.media-amazon.com/images/I/71kDKp7N4-L._SL1500_.jpg"}
 {title: "Sparnod", description: "Sparnod Fitness STC-4250 (2 HP Continuous AC Motor) Semi-Commercial Treadmill", price: 15550, category: "Trademills", images: "https://m.media-amazon.com/images/I/614HPMpRrnL._SX679_.jpg"}

@@ -13,11 +13,11 @@ export default function SportsEquipment() {
             </div>
             <section className="flex justify-around items-center p-4">
                 <CategoryCard title="Gymgloves" imageSrc="/Gymgloves.jpg" link="/Gymgloves" />
-                <CategoryCard title="Resistance Band" imageSrc="/resistanceband.webp" link="/resistanceband" />
-                <CategoryCard title="Weights & Dumbells" imageSrc="/dumbells.webp" link="/Weights-dumbells" />
-                <CategoryCard title="Exercise Bikes" imageSrc="/bikes.jpg" link="/bikes" />
-                <CategoryCard title="Elliptical & Cross Trainer" imageSrc="/Elliptical.webp" link="/Elliptical-crosstrainer" />
-                <CategoryCard title="Treadmills" imageSrc="/Treadmill.png" link="/SportsEquipment" />
+                <CategoryCard title="Resistance Band" imageSrc="/resistanceband.webp" link="/Resistanceband" />
+                <CategoryCard title="Weights & Dumbells" imageSrc="/dumbells.webp" link="/Dumbbells" />
+                <CategoryCard title="Exercise Bikes" imageSrc="/bikes.jpg" link="/Bikes" />
+                <CategoryCard title="Elliptical & Cross Trainer" imageSrc="/Elliptical.webp" link="/Elliptical" />
+                <CategoryCard title="Treadmills" imageSrc="/Treadmill.png" link="/Trademills" />
             </section>
             <Footer />
         </div>
