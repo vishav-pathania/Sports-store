@@ -13,10 +13,15 @@ const Navbar = () => {
         <a href="/About" className="text-white    px-3 p-2 m-1 rounded-xl  hover:bg-blue-500">About us</a>
         <a href="/Contact" className="text-white   px-3 p-2 m-1 rounded-xl  hover:bg-blue-500">Contact</a>
       </div>
+<<<<<<< HEAD
       <div className="flex flex-1 mx-auto">
         <a href="/" className="font-bold md:px-8 mx-auto hover:bg-blue-500 py-2 lg:px-14 xl:px-16 2xl:px-28 rounded-xl text-2xl text-white">
+=======
+      <div className="flex flex-1 items-center justify-center">
+        <Link href="/" className="font-bold md:px-8 mx-auto lg:px-16 xl:px-20 2xl:px-32 text-xl text-white">
+>>>>>>> 237cdb5954017e68f2689e2986b4697810e65da4
           TruSports
-        </a>
+        </Link>
       </div>
       <div className="flex items-center justify-end  mr-4 space-x-4">
         <Link href="/search" className="hover:bg-blue-500 p-1 rounded-lg">

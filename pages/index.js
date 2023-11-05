@@ -9,9 +9,10 @@ import { mongooseConnect } from '../lib/mongoose'
 
 
 export async function getServerSideProps() {
-  const featuredProductId = '640de2b12aa291ebdf213d48';
+  
   await mongooseConnect();
   const newProducts = await Product.find({}, null, { sort: { '_id': -1 }, limit: 8 });
+
   return {
     props: {
       newProducts: JSON.parse(JSON.stringify(newProducts)),

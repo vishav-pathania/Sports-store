@@ -9,12 +9,12 @@ const Men = () => {
             <Navbar />
             <Mbanner />
             <section className="flex flex-wrap justify-around items-center p-4">
-                <CategoryCard title="T-shirts & Tanks" imageSrc="/Men-Tshirt.avif" link="/Men" />
-                <CategoryCard title="Shorts" imageSrc="/Men-Shorts.avif" link="/Women" />
-                <CategoryCard title="Sports Footwear" imageSrc="/Men-Shoes.avif" link="/Kids" />
-                <CategoryCard title="Sunglasses" imageSrc="/Men-Sunglasses.avif" link="/Shoes" />
-                <CategoryCard title="Track-pants" imageSrc="/Men-Trackpant.avif" link="/Accessories" />
-                <CategoryCard title="Collar T-shirts" imageSrc="/Men-Collartshirt.avif" link="/SportsEquipment" />
+                <CategoryCard title="T-shirts & Tanks" imageSrc="/Men-Tshirt.avif" link="/Mtshirts" />
+                <CategoryCard title="Shorts" imageSrc="/Men-Shorts.avif" link="/Mshorts" />
+                <CategoryCard title="Sports Footwear" imageSrc="/Men-Shoes.avif" link="/Mshoes" />
+                <CategoryCard title="Sunglasses" imageSrc="/Men-Sunglasses.avif" link="/Msunglasses" />
+                <CategoryCard title="Track-pants" imageSrc="/Men-Trackpant.avif" link="/Mtrackpant" />
+                <CategoryCard title="Collar T-shirts" imageSrc="/Men-Collartshirt.avif" link="/Mctshirts" />
             </section>
             <img src="/Mbanner4.avif" alt="Men T-Shirts Collection" className="mt-4" />
             <Footer/>

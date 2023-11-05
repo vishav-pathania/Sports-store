@@ -1,31 +1,31 @@
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
-import Presistanceband from "../components/Presistanceband"
+import Ptrademills from "../components/Ptrademills"
 import { Product } from '../models/Product'
 import { mongooseConnect } from '../lib/mongoose'
 
 export async function getServerSideProps() {
   
     await mongooseConnect();
-    const Resistanceband = await Product.find({ category: "ResistanceBand" });
+    const Trademills = await Product.find({ category: "Trademills" });
   
     return {
       props: {
-        Resistanceband: JSON.parse(JSON.stringify(Resistanceband)),
+        Trademills: JSON.parse(JSON.stringify(Trademills)),
       },
     };
   }
 
-const Resistanceband = ({Resistanceband}) => {
+const Trademills = ({Trademills}) => {
     return (
         <div>
             <Navbar />
             <img src="/Equipment.avif" alt="Equipment-Banner" />
-            <Presistanceband Resistanceband={Resistanceband} />
+            <Ptrademills Trademills={Trademills} />
             <Footer/>
         </div>
     )
 }
 
 
-export default Resistanceband
+export default Trademills
