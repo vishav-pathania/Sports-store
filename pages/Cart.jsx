@@ -15,6 +15,9 @@ const Cart = () => {
     const [postalCode, setPostalCode] = useState('');
     const [streetAddress, setStreetAddress] = useState('');
     const [country, setCountry] = useState('');
+    const [totalPrice, setTotalPrice] = useState(0);
+    const [discount, setDiscount] = useState(0);
+    const [finalPrice, setFinalPrice] = useState(0);
 
     useEffect(() => {
         if (cartProducts.length > 0) {
@@ -55,11 +58,33 @@ const Cart = () => {
         }
     }
 
-    let total = 0;
-    for (const productId of cartProducts) {
-        const price = products.find(p => p._id === productId)?.price || 0;
-        total += price;
-    }
+    useEffect(() => {
+        let total = 0;
+        for (const productId of cartProducts) {
+          const price = products.find((p) => p._id === productId)?.price || 0;
+          total += price;
+        }
+      
+        const calculatedDiscount = calculateDiscountedPrice(total);
+        const discountedPrice = total - calculatedDiscount;
+        setTotalPrice(total);
+        setDiscount(calculatedDiscount);
+        setFinalPrice(discountedPrice);
+      }, [cartProducts, products]);
+
+      function calculateDiscountedPrice(totalPrice) {
+        let discount = 0;
+      
+        if (totalPrice >= 10000) {
+            discount = (totalPrice * 0.15).toFixed(2);
+          } else if (totalPrice >= 5000) {
+            discount = (totalPrice * 0.1).toFixed(2);
+          } else if (totalPrice >= 2000) {
+            discount = (totalPrice * 0.05).toFixed(2);
+          }
+      
+        return discount;
+      }
 
     if (window.location.href.includes('success')) {
         return (
@@ -78,20 +103,21 @@ const Cart = () => {
     }
     else if (session) {
         return (
-            <div className="bg-slate-300 min-h-screen ">
+            <div className="bg-blue-100 min-h-screen ">
                 <Navbar />
 
                 <div className="container mx-auto px-4 mt-10">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-                        <div className="bg-white rounded-lg p-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 m-10  gap-28">
+                        <div className="bg-white rounded-lg border-2 border-black p-8">
                             {!cartProducts?.length && <div>Your Cart is Empty</div>}
                             {products?.length > 0 && (
+                                <div>
                                 <table className="w-full">
                                     <thead className="bg-gray-200">
                                         <tr>
                                             <th className="p-2">Product</th>
                                             <th className="p-2">Quantity</th>
-                                            <th className="p-2">Price</th>
+                                            <th className="p-2">Price(MRP)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -116,21 +142,26 @@ const Cart = () => {
                                                         +
                                                     </button>
                                                 </td>
-                                                <td className="p-2">₹ {cartProducts.filter(id => id === product._id).length * product.price}</td>
+                                                <td className="p-2">₹ {cartProducts.filter(id => id === product._id).length * product.price} <span className="text-slate-500 line-through">{((product.price * 1.2).toFixed(2))}</span></td>
                                             </tr>
-                                        ))}
-                                        <tr>
-                                            <td></td>
-                                            
-                                            <td></td>
-                                            <td>₹ {total}</td>
-                                        </tr>
+                                        ))}  
+                                        
                                     </tbody>
+                                    
                                 </table>
+                                <div className="flex flex-col">                                             
+                                           <div className=" justify-end w-fit mx-auto flex text-slate-600 p-1"> Total Price:₹ <div className="line-through">{totalPrice}</div> </div>
+
+                                           <div className="w-fit mx-auto p-1"> - Bill Discount:₹ {discount} </div>
+                                        
+                                       <div className=" w-fit mx-auto shadow-md bg-cyan-100 rounded-xl text-xl shadow-cyan-200 p-1"> Final Price :₹ {finalPrice} </div>
+                                        </div>
+                                </div>
                             )}
                         </div>
                         {!!cartProducts?.length && (
-                            < div className="bg-white rounded-lg p-8">
+                            <div className="max-h-min">
+                            < div className="bg-white border-2 border-black rounded-lg p-8">
                                 <h2 className="text-2xl font-semibold mb-4">Order Information</h2>
 
                                 <div className="mb-4">
@@ -201,6 +232,7 @@ const Cart = () => {
                                     Continue to payment
                                 </button>
 
+                            </div>
                             </div>
 
                         )}

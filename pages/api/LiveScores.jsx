@@ -113,7 +113,7 @@ const LiveScores = () => {
     return (
       <div className="flex flex-col p-4">
         <h2 className="font-bold text-xl mb-4">Cricket Events</h2>
-        <table className="table-auto md:w-4/5 border-collapse bg-sky-400 text-blue-950">
+        <table className="table-auto md:w-4/5 overflow-x border-collapse bg-sky-400 text-blue-950">
           <thead>
             <tr>
               <th className="border px-2 py-2">Home Team</th>
@@ -135,7 +135,9 @@ const LiveScores = () => {
                 <td className="border px-2 py-2">{event.status.description}</td>
                 <td className="border px-2 py-2">{event.awayScore.current}</td>
                 <td className="border px-2 py-2">{event.homeScore.current}</td>
-                <td className="border px-2 py-2">
+
+                {/* When awayScore to use */}
+                {/* <td className="border px-2 py-2">
                   {event.awayScore.innings.inning1.wickets}
                 </td>
                 <td className="border px-2 py-2">
@@ -144,7 +146,20 @@ const LiveScores = () => {
                 <td className="border px-2 py-2">
                   {event.awayScore.innings.inning1.overs}
                 </td>
+                <td className="border px-2 py-2">{event.tournament.name}</td> */}
+
+                {/* When homeScore to use */}
+                <td className="border px-2 py-2">
+                  {event.homeScore.innings.inning1.wickets}
+                </td>
+                <td className="border px-2 py-2">
+                  {event.homeScore.innings.inning1.runRate}
+                </td>
+                <td className="border px-2 py-2">
+                  {event.homeScore.innings.inning1.overs}
+                </td>
                 <td className="border px-2 py-2">{event.tournament.name}</td>
+
               </tr>
             ))}
           </tbody>
