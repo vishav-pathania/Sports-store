@@ -9,12 +9,12 @@ const Navbar = () => {
   return (
     <div className="bg-blue-600 md:h-20  flex items-center">
       <div className="px-2 md:pr-4 lg:pr-6 xl:pr-10 2xl:pr-12 flex items-center justify-between h-14">
-        <a href="/SportsPage" className="text-white hover:text-black border-2 p-2 m-1 ml-0 rounded-3xl  hover:bg-blue-500">Sports Score</a>
-        <a href="/About" className="text-white hover:text-black border-2 px-3 p-2 m-1 rounded-3xl  hover:bg-blue-500">About us</a>
-        <a href="/Contact" className="text-white hover:text-black border-2 px-3 p-2 m-1 rounded-3xl  hover:bg-blue-500">Contact</a>
+        <a href="/SportsPage" className="text-white     p-2 m-1 ml-0 rounded-xl  hover:bg-blue-500">Sports Score</a>
+        <a href="/About" className="text-white    px-3 p-2 m-1 rounded-xl  hover:bg-blue-500">About us</a>
+        <a href="/Contact" className="text-white   px-3 p-2 m-1 rounded-xl  hover:bg-blue-500">Contact</a>
       </div>
-      <div className="flex flex-1 items-center justify-center">
-        <a href="/" className="font-bold md:px-8 mx-auto lg:px-16 xl:px-20 2xl:px-32 text-xl text-white">
+      <div className="flex flex-1 mx-auto">
+        <a href="/" className="font-bold md:px-8 mx-auto hover:bg-blue-500 py-2 lg:px-14 xl:px-16 2xl:px-28 rounded-xl text-2xl text-white">
           TruSports
         </a>
       </div>
