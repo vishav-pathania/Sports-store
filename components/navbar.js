@@ -7,7 +7,7 @@ import { CartContext } from "./CartContext"
 const Navbar = () => {
   const {cartProducts} = useContext(CartContext)
   return (
-    <div className="bg-blue-600 md:h-20  flex items-center">
+    <div className="bg-blue-600 md:h-16  flex items-center">
       <div className="px-2 md:pr-4 lg:pr-6 xl:pr-10 2xl:pr-12 flex items-center justify-between h-14">
         <a href="/SportsPage" className="text-white     p-2 m-1 ml-0 rounded-xl  hover:bg-blue-500">Sports Score</a>
         <a href="/About" className="text-white    px-3 p-2 m-1 rounded-xl  hover:bg-blue-500">About us</a>
@@ -19,11 +19,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="flex items-center justify-end  mr-4 space-x-4">
-        <Link href="/search" className="hover:bg-blue-500 p-1 rounded-lg">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="white" className="w-8 mx-2 h-8">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-        </svg>
-        </Link>
+        
         <Link href="/Cart">
           <div className="flex font-semibold rounded-lg text-lg p-2 text-center hover:bg-blue-500 text-white">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="white" className=" w-8 h-8">
