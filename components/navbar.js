@@ -9,9 +9,9 @@ const Navbar = () => {
   return (
     <div className="bg-blue-600 md:h-16  flex items-center">
       <div className="px-2 md:pr-4 lg:pr-6 xl:pr-10 2xl:pr-12 flex items-center justify-between h-14">
-        <a href="/SportsPage" className="text-white     p-2 m-1 ml-0 rounded-xl  hover:bg-blue-500">Sports Score</a>
-        <a href="/About" className="text-white    px-3 p-2 m-1 rounded-xl  hover:bg-blue-500">About us</a>
-        <a href="/Contact" className="text-white   px-3 p-2 m-1 rounded-xl  hover:bg-blue-500">Contact</a>
+        <Link href="/SportsPage" className="text-white     p-2 m-1 ml-0 rounded-xl  hover:bg-blue-500">Sports Score</Link>
+        <Link href="/About" className="text-white    px-3 p-2 m-1 rounded-xl  hover:bg-blue-500">About us</Link>
+        <Link href="/Contact" className="text-white   px-3 p-2 m-1 rounded-xl  hover:bg-blue-500">Contact</Link>
       </div>
       <div className="flex flex-1 items-center justify-center">
         <Link href="/" className="font-bold md:px-6 py-2  rounded-xl  hover:bg-blue-500 text-xl text-white">

@@ -86,7 +86,7 @@ const Cart = () => {
         return discount;
       }
 
-    if (window.location.href.includes('success')) {
+    if (window?.location.href.includes('success')) {
         return (
             <div>
                 <Navbar />

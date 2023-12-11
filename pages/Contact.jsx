@@ -11,7 +11,7 @@ const Contact = () => {
           <section className="flex flex-col justify-center items-center">
             <h2 className="text-center text-3xl mb-28 font-bold">Contact Us</h2>
             <p className="text-center w-3/5  mb-32 text-lg">
-              If you have any questions or feedback, please don't hesitate to
+              If you have any questions or feedback, please dont hesitate to
               contact Us. We are always happy to hear from people, and 
               helping others in any way that we can.
             </p>
