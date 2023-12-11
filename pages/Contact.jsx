@@ -18,29 +18,29 @@ const Contact = () => {
 
             <ul className="flex gap-2  justify-center items-center space-x-4 mt-4">
               <li>Gmail:-
-                <a href="gmail.com">
+                <Link href="gmail.com">
                   <img className="h-9 w-9" src="/email.png" alt="Email" />
-                </a>
+                </Link>
               </li>
               <li>Phone:-
-                <a href='#'>
+                <Link href='#'>
                   <img className="h-9 w-9" src="/phone.png" alt="Phone" />
-                </a>
+                </Link>
               </li>
               <li>LinkedIn:-
-                <a href="https://linkedin.com">
+                <Link href="https://linkedin.com">
                   <img className="h-9 w-9" src="/linkedin.png" alt="LinkedIn" />
-                </a>
+                </Link>
               </li>
               <li>Twitter:-
-                <a href="https://twiiter.com">
+                <Link href="https://twiiter.com">
                   <img className="h-9 w-9" src="/twiiter.png" alt="Twitter" />
-                </a>
+                </Link>
               </li>
               <li>FaceBook:-
-                <a href="https://facebook.com">
+                <Link href="https://facebook.com">
                   <img className="h-9 w-9" src="/facebook.png" alt="Facebook" />
-                </a>
+                </Link>
               </li>
             </ul>
           </section>

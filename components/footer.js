@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const footer = () => {
     return (
         <div className="flex border-2">
@@ -18,11 +20,11 @@ const footer = () => {
             </div>
             <div className="flex justify-center mr-1 flex-col">
                 <p className="text-violet-700 bg-slate-200 p-1" >Navigate to:</p>
-                <a className=" text-violet-900 hover:text-teal-500" href="/Men">Men</a>
-                <a className=" text-violet-900 hover:text-teal-500" href="/Women">Women</a>
-                <a className=" text-violet-900 hover:text-teal-500" href="/Kids">Kids</a>
-                <a className=" text-violet-900 hover:text-teal-500" href="/SportsEquipment">SportsEquipment</a>
-                <a className=" text-violet-900 hover:text-teal-500" href="/Accessories">Accessories</a>
+                <Link className=" text-violet-900 hover:text-teal-500" href="/Men">Men</Link>
+                <Link className=" text-violet-900 hover:text-teal-500" href="/Women">Women</Link>
+                <Link className=" text-violet-900 hover:text-teal-500" href="/Kids">Kids</Link>
+                <Link className=" text-violet-900 hover:text-teal-500" href="/SportsEquipment">SportsEquipment</Link>
+                <Link className=" text-violet-900 hover:text-teal-500" href="/Accessories">Accessories</Link>
 
             </div>
         </div>
