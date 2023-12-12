@@ -18,6 +18,7 @@ const Cart = () => {
     const [totalPrice, setTotalPrice] = useState(0);
     const [discount, setDiscount] = useState(0);
     const [finalPrice, setFinalPrice] = useState(0);
+    const [isSuccess,setIsSuccess] = useState(false);
 
     useEffect(() => {
         if (cartProducts.length > 0) {
@@ -86,7 +87,7 @@ const Cart = () => {
         return discount;
       }
 
-    if (window?.location.href.includes('success')) {
+    if (isSuccess) {
         return (
             <div>
                 <Navbar />
