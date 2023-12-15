@@ -16,7 +16,7 @@ const Women = () => {
                 <CategoryCard title="Track-pants" imageSrc="/Men-Trackpant.avif" link="/Accessories" />
                 <CategoryCard title="Collar T-shirts" imageSrc="/Men-Collartshirt.avif" link="/SportsEquipment" />
             </section>
-            <img src="/Women-Banner4.avif" alt="Women Shorts" />
+            <img src="/Women-Banner4.avif" alt="Women Shorts" className="w-full mt-4"/>
             <Footer/>
         </div>
     )
